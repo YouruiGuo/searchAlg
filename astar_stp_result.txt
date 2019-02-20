@@ -1,0 +1,596 @@
+1
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 13, 15, 7], [11, 12, 9, 5], [6, 0, 2, 1], [4, 8, 10, 3]]
+./script.sh: line 3: 31942 Killed                  python astar_alg.py $i
+2
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 5, 4, 10], [9, 12, 8, 14], [2, 3, 7, 1], [0, 15, 11, 6]]
+./script.sh: line 3: 32036 Killed                  python astar_alg.py $i
+3
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 7, 8, 2], [13, 11, 10, 4], [9, 12, 5, 0], [3, 6, 1, 15]]
+./script.sh: line 3: 32106 Killed                  python astar_alg.py $i
+4
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 12, 10, 7], [15, 11, 14, 0], [8, 2, 1, 13], [3, 4, 9, 6]]
+./script.sh: line 3: 32173 Killed                  python astar_alg.py $i
+5
+run on ./data/korf100.txt
+sliding tile puzzle
+[[4, 7, 14, 13], [10, 3, 9, 12], [11, 5, 6, 15], [1, 2, 8, 0]]
+./script.sh: line 3: 32239 Killed                  python astar_alg.py $i
+6
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 7, 1, 9], [12, 3, 6, 15], [8, 11, 2, 5], [10, 0, 4, 13]]
+./script.sh: line 3: 32294 Killed                  python astar_alg.py $i
+7
+run on ./data/korf100.txt
+sliding tile puzzle
+[[2, 11, 15, 5], [13, 4, 6, 7], [12, 8, 10, 1], [9, 3, 14, 0]]
+./script.sh: line 3: 32354 Killed                  python astar_alg.py $i
+8
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 11, 15, 3], [8, 0, 4, 2], [6, 13, 9, 5], [14, 1, 10, 7]]
+./script.sh: line 3: 32421 Killed                  python astar_alg.py $i
+9
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 14, 9, 11], [5, 4, 8, 2], [13, 12, 6, 7], [10, 1, 15, 0]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 5, 9, 13, 17, 92, 266, 312, 327, 805, 1412, 1960, 2189, 2247, 2303, 3658, 3706, 3720, 3737, 5015, 6217, 6220, 65095, 80301, 90492, 187893, 1149322, 1359428, 1359431, 1428675, 1708250, 1739857, 1874537, 1918026, 1920247, 1923214, 1923997, 1924218, 1924245, 1924276, 1924307, 1924329, 1924346, 1924361, 1924376, 1] expanded 1029372 updated 32292 openlist 1924424 time 145.976788044
+10
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 11, 8, 9], [0, 15, 7, 10], [4, 3, 6, 14], [5, 12, 2, 1]]
+./script.sh: line 3: 32516 Killed                  python astar_alg.py $i
+11
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 9, 13, 14], [6, 3, 7, 12], [10, 8, 4, 0], [15, 2, 11, 1]]
+./script.sh: line 3: 32590 Killed                  python astar_alg.py $i
+12
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 1, 9, 6], [4, 8, 12, 5], [7, 2, 3, 0], [10, 11, 13, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 4, 7, 13, 16, 114, 119, 138, 162, 167, 193, 791, 1369, 1493, 1731, 1743, 1748, 3235, 3881, 19860, 19862, 24228, 28714, 35448, 44291, 46842, 46853, 46866, 46873, 46879, 46888, 46896, 80210, 80212, 80216, 141015, 141021, 143785, 191420, 204189, 251639, 260595, 283845, 288312, 296677, 1] expanded 157862 updated 3309 openlist 301649 time 21.1715741158
+13
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 6, 5, 2], [10, 0, 15, 14], [1, 4, 13, 12], [9, 8, 11, 7]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 5, 9, 12, 18, 23, 26, 29, 87, 196, 1388, 2299, 2363, 2377, 2393, 2412, 2416, 2433, 2435, 2457, 2479, 2503, 2520, 2523, 19668, 60125, 70282, 70285, 325917, 3032335, 3263351, 3263355, 2557950, 3863833, 3863848, 3863856, 3953168, 3981680, 4011926, 4013802, 4013981, 4014011, 4014038, 4014071, 4014096, 4014114, 1] expanded 2225611 updated 89197 openlist 4014165 time 319.876983881
+14
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 6, 8, 1], [11, 5, 14, 10], [3, 4, 9, 13], [15, 2, 0, 12]]
+./script.sh: line 3:   321 Killed                  python astar_alg.py $i
+15
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 11, 4, 12], [1, 8, 9, 15], [6, 5, 14, 2], [7, 3, 10, 0]]
+./script.sh: line 3:   891 Killed                  python astar_alg.py $i
+16
+run on ./data/korf100.txt
+sliding tile puzzle
+[[1, 3, 2, 5], [10, 9, 15, 6], [8, 14, 13, 11], [12, 4, 7, 0]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 5, 102, 112, 121, 324, 1236, 1240, 5878, 5889, 5898, 5908, 8547, 35969, 62472, 65026, 113038, 556378, 632366, 702926, 780545, 855499, 1626134, 1660987, 1660991, 2615886, 1049156, 2727884, 2821779, 3058623, 3058628, 3058635, 3058649, 3058658, 3058664, 3058668, 3058673, 3058680, 3058690, 3058699, 3058708, 1] expanded 1651492 updated 51851 openlist 3058715 time 237.197216034
+17
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 14, 0, 4], [11, 1, 6, 13], [7, 5, 8, 9], [3, 2, 10, 12]]
+./script.sh: line 3:   989 Killed                  python astar_alg.py $i
+18
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 0, 14, 12], [1, 15, 9, 10], [11, 4, 7, 2], [8, 3, 5, 13]]
+./script.sh: line 3:  1070 Killed                  python astar_alg.py $i
+19
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 11, 8, 3], [14, 0, 6, 15], [1, 4, 13, 9], [5, 12, 2, 10]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 5, 9, 12, 16, 42, 49, 53, 214, 225, 248, 500, 503, 956, 1231, 1246, 1264, 1289, 1308, 1323, 2478, 2892, 4049, 7761, 8716, 9141, 10023, 19425, 19691, 31489, 32102, 35941, 43698, 93306, 104368, 122516, 146692, 166879, 572592, 825530, 962876, 998125, 998128, 1122005, 1191137, 1201369, 1] expanded 646009 updated 20857 openlist 1209028 time 90.0094361305
+20
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 12, 11, 3], [13, 7, 9, 15], [2, 14, 8, 10], [4, 1, 5, 0]]
+./script.sh: line 3:  1150 Killed                  python astar_alg.py $i
+21
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 8, 14, 6], [11, 4, 7, 0], [5, 1, 10, 15], [3, 13, 9, 2]]
+./script.sh: line 3:  1220 Killed                  python astar_alg.py $i
+22
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 3, 9, 1], [15, 8, 4, 5], [11, 7, 10, 13], [0, 2, 12, 6]]
+./script.sh: line 3:  1279 Killed                  python astar_alg.py $i
+23
+run on ./data/korf100.txt
+sliding tile puzzle
+[[10, 9, 3, 11], [0, 13, 2, 14], [5, 6, 4, 7], [8, 15, 1, 12]]
+./script.sh: line 3:  1350 Killed                  python astar_alg.py $i
+24
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 3, 14, 13], [4, 1, 10, 8], [5, 12, 9, 11], [2, 15, 6, 0]]
+./script.sh: line 3:  1414 Killed                  python astar_alg.py $i
+25
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 4, 2, 7], [1, 0, 10, 15], [6, 9, 14, 8], [3, 13, 5, 12]]
+./script.sh: line 3:  1482 Killed                  python astar_alg.py $i
+26
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 7, 3, 12], [15, 13, 14, 8], [0, 10, 9, 6], [1, 4, 2, 11]]
+./script.sh: line 3:  1568 Killed                  python astar_alg.py $i
+27
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 1, 8, 15], [2, 6, 0, 3], [9, 12, 10, 13], [4, 7, 5, 11]]
+./script.sh: line 3:  1719 Killed                  python astar_alg.py $i
+28
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 14, 6, 12], [4, 5, 1, 0], [9, 3, 10, 2], [15, 11, 8, 7]]
+./script.sh: line 3:  1834 Killed                  python astar_alg.py $i
+29
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 8, 0, 2], [15, 1, 4, 14], [3, 10, 7, 5], [11, 13, 6, 12]]
+./script.sh: line 3:  1967 Killed                  python astar_alg.py $i
+30
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 15, 2, 6], [1, 14, 4, 8], [5, 3, 7, 0], [10, 13, 9, 11]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 4, 9, 11, 15, 29, 267, 278, 289, 320, 538, 1398, 1822, 1966, 1986, 1997, 3276, 3279, 7815, 7932, 8105, 37174, 49784, 58510, 93010, 287470, 317279, 355612, 361390, 361400, 361411, 921683, 1104406, 1218396, 1416922, 1473164, 1496995, 1510389, 1511644, 1511684, 1511717, 1511742, 1511745, 1512279, 1512349, 1512391, 1512418, 1] expanded 816209 updated 19819 openlist 1512466 time 112.636798859
+31
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 8, 15, 13], [1, 0, 5, 4], [6, 3, 2, 11], [9, 7, 14, 10]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 5, 8, 37, 41, 45, 53, 59, 75, 82, 107, 264, 277, 291, 311, 317, 324, 590, 704, 1603, 7630, 8309, 8542, 8544, 9541, 29495, 32154, 46482, 81696, 126453, 182546, 206030, 250949, 323826, 325557, 325602, 325626, 594055, 594058, 679346, 771591, 852194, 1227664, 1360394, 1379125, 1385222, 1385264, 1385294, 1385314, 1385329, 1] expanded 751362 updated 18903 openlist 1385368 time 105.364241123
+32
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 10, 9, 4], [13, 6, 5, 8], [2, 12, 7, 0], [1, 3, 11, 15]]
+./script.sh: line 3:  2085 Killed                  python astar_alg.py $i
+33
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 3, 5, 15], [11, 6, 13, 9], [0, 10, 2, 12], [4, 1, 7, 8]]
+./script.sh: line 3:  2155 Killed                  python astar_alg.py $i
+34
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 11, 7, 8], [13, 2, 5, 4], [1, 10, 3, 9], [14, 0, 12, 15]]
+./script.sh: line 3:  2221 Killed                  python astar_alg.py $i
+35
+run on ./data/korf100.txt
+sliding tile puzzle
+[[1, 6, 12, 14], [3, 2, 15, 8], [4, 5, 13, 9], [0, 7, 11, 10]]
+./script.sh: line 3:  2403 Killed                  python astar_alg.py $i
+36
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 6, 0, 4], [7, 3, 15, 1], [13, 9, 8, 11], [2, 14, 5, 10]]
+./script.sh: line 3:  2535 Killed                  python astar_alg.py $i
+37
+run on ./data/korf100.txt
+sliding tile puzzle
+[[8, 1, 7, 12], [11, 0, 10, 5], [9, 15, 6, 13], [14, 2, 3, 4]]
+./script.sh: line 3:  2768 Killed                  python astar_alg.py $i
+38
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 15, 8, 2], [13, 6, 3, 12], [11, 0, 4, 10], [9, 5, 1, 14]]
+./script.sh: line 3:  2847 Killed                  python astar_alg.py $i
+39
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 0, 4, 10], [1, 14, 15, 3], [12, 6, 5, 7], [11, 13, 8, 2]]
+./script.sh: line 3:  3012 Killed                  python astar_alg.py $i
+40
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 5, 1, 14], [4, 12, 10, 0], [2, 7, 13, 3], [9, 15, 6, 8]]
+./script.sh: line 3:  3138 Killed                  python astar_alg.py $i
+41
+run on ./data/korf100.txt
+sliding tile puzzle
+[[8, 13, 10, 9], [11, 3, 15, 6], [0, 1, 2, 14], [12, 5, 4, 7]]
+./script.sh: line 3:  3306 Killed                  python astar_alg.py $i
+42
+run on ./data/korf100.txt
+sliding tile puzzle
+[[4, 5, 7, 2], [9, 14, 12, 13], [0, 3, 6, 11], [8, 1, 15, 10]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 4, 18, 454, 593, 600, 1725, 3056, 3250, 3370, 3410, 3431, 3486, 3503, 3525, 10035, 14679, 14861, 16449, 17994, 18259, 18274, 18289, 18299, 18308, 18320, 18339, 18355, 18369, 18381, 18388, 18400, 24004, 29985, 29988, 43008, 101709, 101713, 101717, 101721, 101727, 101729, 1] expanded 133879 updated 2433 openlist 255765 time 17.7253410816
+43
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 15, 14, 13], [1, 9, 10, 4], [3, 6, 2, 12], [7, 5, 8, 0]]
+./script.sh: line 3:  3370 Killed                  python astar_alg.py $i
+44
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 9, 0, 6], [8, 3, 5, 14], [2, 4, 11, 7], [10, 1, 15, 13]]
+./script.sh: line 3:  3458 Killed                  python astar_alg.py $i
+45
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 14, 9, 7], [12, 15, 0, 4], [1, 8, 5, 6], [11, 10, 2, 13]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 5, 10, 69, 385, 514, 522, 534, 555, 564, 1275, 2015, 2194, 4380, 4383, 22362, 31637, 33800, 33817, 33826, 33832, 33839, 33846, 64157, 64274, 64521, 77364, 103516, 114075, 114078, 138431, 159566, 171551, 178548, 178633, 218779, 456924, 540574, 696101, 1864553, 3639214, 3697797, 3753970, 3978670, 4137099, 4137112, 4137119, 4137126, 4137130, 4137137, 4137143, 1] expanded 2260252 updated 60211 openlist 4137148 time 318.195392847
+46
+run on ./data/korf100.txt
+sliding tile puzzle
+[[8, 4, 6, 1], [14, 12, 2, 15], [13, 10, 9, 5], [3, 7, 0, 11]]
+./script.sh: line 3:  3728 Killed                  python astar_alg.py $i
+47
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 10, 1, 14], [15, 8, 3, 5], [13, 0, 2, 7], [4, 9, 11, 12]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 8, 12, 186, 190, 351, 390, 139, 415, 431, 447, 461, 847, 884, 1523, 5910, 9683, 12205, 37461, 37714, 37734, 40895, 40900, 40904, 47761, 63774, 67914, 69478, 71394, 72424, 190683, 235389, 273916, 285972, 987793, 994532, 1182010, 1339733, 1347982, 1350971, 1350988, 1351006, 1351028, 1351040, 1351055, 1351070, 1] expanded 731845 updated 21314 openlist 1351103 time 101.224637032
+48
+run on ./data/korf100.txt
+sliding tile puzzle
+[[8, 11, 4, 6], [7, 3, 10, 9], [2, 12, 15, 13], [0, 1, 5, 14]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 6, 13, 20, 24, 29, 34, 38, 42, 49, 959, 1372, 1525, 1544, 7172, 7176, 18389, 20063, 23570, 27975, 28156, 28606, 28643, 28679, 28716, 28750, 28775, 28795, 28815, 28834, 28852, 38258, 38262, 38266, 38271, 38276, 134200, 134202, 155102, 495928, 630175, 786425, 891786, 972455, 975057, 975092, 975112, 975131, 1] expanded 512361 updated 12593 openlist 975161 time 73.3185381889
+49
+run on ./data/korf100.txt
+sliding tile puzzle
+[[10, 0, 2, 4], [5, 1, 6, 12], [11, 13, 9, 7], [15, 3, 14, 8]]
+./script.sh: line 3:  3866 Killed                  python astar_alg.py $i
+50
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 5, 13, 11], [2, 10, 0, 9], [7, 8, 4, 3], [14, 6, 15, 1]]
+./script.sh: line 3:  3993 Killed                  python astar_alg.py $i
+51
+run on ./data/korf100.txt
+sliding tile puzzle
+[[10, 2, 8, 4], [15, 0, 1, 14], [11, 13, 3, 6], [9, 7, 5, 12]]
+./script.sh: line 3:  4081 Killed                  python astar_alg.py $i
+52
+run on ./data/korf100.txt
+sliding tile puzzle
+[[10, 8, 0, 12], [3, 7, 6, 2], [1, 14, 4, 11], [15, 13, 9, 5]]
+./script.sh: line 3:  4211 Killed                  python astar_alg.py $i
+53
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 9, 12, 13], [15, 4, 8, 10], [0, 2, 1, 7], [3, 11, 5, 6]]
+./script.sh: line 3:  4292 Killed                  python astar_alg.py $i
+54
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 11, 0, 8], [10, 2, 13, 15], [5, 4, 7, 3], [6, 9, 14, 1]]
+./script.sh: line 3:  4881 Killed                  python astar_alg.py $i
+55
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 8, 14, 3], [9, 1, 0, 7], [15, 5, 4, 10], [12, 2, 6, 11]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 10, 26, 47, 564, 2179, 6109, 6114, 6121, 6129, 6137, 6146, 6154, 6167, 10807, 56395, 137394, 278203, 326828, 348610, 374099, 374113, 374127, 374144, 374156, 374166, 374177, 374189, 374200, 374213, 374226, 374245, 374264, 374281, 374292, 374301, 374309, 374319, 374332, 374344, 1] expanded 198045 updated 4539 openlist 374368 time 26.4474890232
+56
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 15, 2, 5], [11, 6, 4, 7], [12, 9, 1, 0], [13, 14, 10, 8]]
+./script.sh: line 3:  5010 Killed                  python astar_alg.py $i
+57
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 11, 6, 9], [4, 13, 12, 0], [8, 2, 15, 10], [1, 7, 3, 14]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 20, 24, 28, 36, 47, 50, 56, 59, 63, 73, 433, 480, 545, 1644, 1759, 1858, 11861, 12287, 15005, 42499, 80282, 252874, 252876, 252880, 252885, 252889, 252892, 421102, 421105, 466674, 730525, 784437, 817928, 823245, 833120, 838991, 839006, 839022, 1398508, 1398511, 1613642, 1729973, 2483270, 2897580, 3280158, 3376090, 3391530, 3402866, 1] expanded 1866427 updated 61570 openlist 3407331 time 262.886118889
+58
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 0, 15, 8], [4, 6, 1, 14], [10, 11, 3, 9], [7, 12, 2, 13]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 7, 14, 18, 29, 34, 40, 47, 67, 89, 94, 101, 105, 109, 278, 282, 450, 455, 2840, 9246, 14888, 21554, 99067, 103752, 114832, 144117, 144119, 160077, 165032, 166920, 166943, 166956, 373804, 676588, 1660005, 1859474, 2061853, 2288981, 2500717, 2675126, 2908006, 3318881, 3406457, 3419831, 3419861, 3419879, 3419889, 3420022, 3420025, 3420111, 1] expanded 1867051 updated 64701 openlist 3420163 time 266.014100075
+59
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 14, 6, 7], [10, 1, 0, 11], [12, 8, 4, 9], [2, 5, 13, 3]]
+./script.sh: line 3:  5157 Killed                  python astar_alg.py $i
+60
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 14, 13, 1], [2, 3, 12, 4], [15, 7, 9, 5], [10, 6, 8, 0]]
+./script.sh: line 3:  5232 Killed                  python astar_alg.py $i
+61
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 13, 3, 2], [11, 9, 5, 10], [1, 7, 12, 14], [8, 4, 0, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 6, 8, 13, 179, 212, 685, 5958, 6709, 8698, 14535, 16898, 23989, 19187, 30696, 34187, 48807, 49726, 49746, 49765, 49793, 49814, 49831, 49843, 49851, 49860, 49870, 49881, 49892, 107301, 188757, 191365, 341613, 1374205, 1374208, 1377486, 1592530, 1713676, 1970589, 2218802, 2302168, 2606668, 2716570, 2896523, 1] expanded 1685798 updated 47493 openlist 3129156 time 239.649039984
+62
+run on ./data/korf100.txt
+sliding tile puzzle
+[[4, 6, 12, 0], [14, 2, 9, 13], [11, 8, 3, 15], [7, 10, 1, 5]]
+./script.sh: line 3:  5422 Killed                  python astar_alg.py $i
+63
+run on ./data/korf100.txt
+sliding tile puzzle
+[[8, 10, 9, 11], [14, 1, 7, 15], [13, 4, 0, 12], [6, 2, 5, 3]]
+./script.sh: line 3:  5518 Killed                  python astar_alg.py $i
+64
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 2, 14, 0], [7, 8, 6, 3], [11, 12, 13, 15], [4, 10, 9, 1]]
+./script.sh: line 3:  5902 Killed                  python astar_alg.py $i
+65
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 8, 3, 2], [10, 12, 4, 6], [11, 13, 5, 15], [0, 1, 9, 14]]
+./script.sh: line 3:  5985 Killed                  python astar_alg.py $i
+66
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 6, 14, 12], [3, 5, 1, 15], [8, 0, 10, 13], [9, 7, 4, 2]]
+./script.sh: line 3:  6119 Killed                  python astar_alg.py $i
+67
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 1, 2, 4], [8, 3, 6, 11], [10, 15, 0, 5], [14, 12, 13, 9]]
+./script.sh: line 3:  6207 Killed                  python astar_alg.py $i
+68
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 3, 1, 13], [12, 10, 5, 2], [8, 0, 6, 11], [14, 15, 4, 9]]
+./script.sh: line 3:  6286 Killed                  python astar_alg.py $i
+69
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 0, 5, 15], [1, 14, 4, 9], [2, 13, 8, 10], [11, 12, 7, 3]]
+./script.sh: line 3:  6566 Killed                  python astar_alg.py $i
+70
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 1, 3, 12], [4, 0, 6, 5], [2, 8, 14, 9], [13, 10, 7, 11]]
+./script.sh: line 3:  6677 Killed                  python astar_alg.py $i
+71
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 7, 0, 11], [12, 1, 9, 10], [15, 6, 2, 3], [8, 4, 13, 14]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 410, 477, 487, 496, 508, 1443, 6504, 14415, 14457, 3593, 14484, 14498, 14510, 14523, 16537, 21781, 21785, 28517, 87144, 87148, 87151, 87155, 164794, 364908, 734772, 734795, 734876, 740416, 1951288, 2213142, 2446397, 2651374, 3047159, 3107695, 3107699, 3107703, 3198063, 3243057, 3244541, 3244544, 3244816, 3244864, 1] expanded 1773691 updated 58836 openlist 3244918 time 256.318655014
+72
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 15, 11, 10], [4, 5, 14, 0], [13, 7, 1, 2], [9, 8, 3, 6]]
+./script.sh: line 3:  6789 Killed                  python astar_alg.py $i
+73
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 14, 10, 5], [15, 8, 7, 1], [3, 4, 2, 0], [12, 9, 11, 13]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 4, 9, 80, 306, 449, 458, 253, 473, 479, 650, 654, 659, 663, 749, 752, 835, 1401, 1483, 22653, 31693, 31703, 31712, 66874, 66878, 66880, 416851, 571816, 571820, 854341, 964171, 1151827, 1372994, 1374927, 1374949, 1377690, 1382766, 1382780, 1382797, 1382812, 1382828, 1382840, 1382848, 1382861, 1382883, 1382910, 1382927, 1382938, 1382951, 1] expanded 741573 updated 23811 openlist 1382978 time 103.109894037
+74
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 13, 4, 11], [15, 8, 6, 9], [0, 7, 3, 1], [2, 10, 12, 5]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 5, 8, 65, 67, 1972, 2210, 3624, 3629, 6234, 14814, 24386, 34201, 34203, 37057, 37061, 103178, 268252, 380404, 715503, 715507, 715510, 715514, 787447, 787450, 1804159, 2446895, 2477871, 2489805, 2592992, 2759761, 2759763, 2759766, 2821849, 2821861, 2821878, 2821889, 2821898, 2821911, 2821926, 2821948, 2821966, 2821984, 2821997, 2822010, 2822018, 2822031, 2822042, 2822057, 2822071, 2822086, 2822098, 2822108, 2822116, 2822123, 1] expanded 1532126 updated 47899 openlist 2822144 time 212.549896955
+75
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 4, 0, 10], [6, 5, 1, 3], [9, 2, 13, 15], [12, 7, 8, 11]]
+./script.sh: line 3:  7012 Killed                  python astar_alg.py $i
+76
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 10, 8, 3], [0, 6, 9, 5], [1, 14, 13, 11], [7, 2, 12, 4]]
+./script.sh: line 3:  7155 Killed                  python astar_alg.py $i
+77
+run on ./data/korf100.txt
+sliding tile puzzle
+[[0, 13, 2, 4], [12, 14, 6, 9], [15, 1, 10, 3], [11, 5, 8, 7]]
+./script.sh: line 3:  7271 Killed                  python astar_alg.py $i
+78
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 14, 13, 6], [4, 15, 8, 9], [5, 12, 10, 0], [2, 7, 1, 11]]
+./script.sh: line 3:  7537 Killed                  python astar_alg.py $i
+79
+run on ./data/korf100.txt
+sliding tile puzzle
+[[0, 1, 9, 7], [11, 13, 5, 3], [14, 12, 4, 2], [8, 6, 10, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 7, 8, 45, 66, 127, 128, 132, 137, 147, 151, 155, 160, 167, 182, 1794, 2297, 2900, 16125, 18369, 20314, 20741, 20758, 72411, 162563, 162568, 162571, 327430, 382482, 399940, 411991, 411998, 412002, 412006, 412013, 412018, 412022, 412026, 412032, 412035, 412045, 1] expanded 213747 updated 4405 openlist 412062 time 28.8629560471
+80
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 0, 15, 8], [13, 12, 3, 5], [10, 1, 4, 6], [14, 9, 7, 2]]
+./script.sh: line 3:  7856 Killed                  python astar_alg.py $i
+81
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 0, 9, 12], [11, 6, 3, 5], [15, 8, 1, 10], [4, 14, 2, 7]]
+./script.sh: line 3:  7931 Killed                  python astar_alg.py $i
+82
+run on ./data/korf100.txt
+sliding tile puzzle
+[[14, 10, 2, 1], [13, 9, 8, 11], [7, 3, 6, 12], [15, 5, 4, 0]]
+./script.sh: line 3:  8011 Killed                  python astar_alg.py $i
+83
+run on ./data/korf100.txt
+sliding tile puzzle
+[[12, 3, 9, 1], [4, 5, 10, 2], [6, 11, 15, 0], [14, 7, 13, 8]]
+./script.sh: line 3:  8135 Killed                  python astar_alg.py $i
+84
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 8, 10, 7], [0, 12, 14, 1], [5, 9, 6, 3], [13, 11, 4, 2]]
+./script.sh: line 3:  8434 Killed                  python astar_alg.py $i
+85
+run on ./data/korf100.txt
+sliding tile puzzle
+[[4, 7, 13, 10], [1, 2, 9, 6], [12, 8, 14, 5], [3, 0, 11, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 4, 5, 7, 9, 11, 24, 35, 52, 61, 156, 211, 231, 240, 249, 260, 275, 391, 3599, 3603, 3607, 17246, 68846, 68850, 96647, 101728, 148978, 156366, 181397, 671629, 825348, 899473, 948436, 958598, 958602, 994670, 1008368, 1008833, 1032049, 1032763, 1032782, 1032799, 1032815, 1032830, 1] expanded 554448 updated 16619 openlist 1032870 time 161.060081005
+86
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 0, 5, 10], [11, 12, 9, 2], [1, 7, 4, 3], [14, 8, 13, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 6, 8, 10, 14, 27, 30, 145, 316, 319, 1777, 4298, 5822, 6215, 10307, 10316, 10327, 14859, 14864, 14869, 14873, 14878, 14883, 14886, 170360, 250545, 320584, 342566, 342581, 342592, 342600, 342610, 342622, 342632, 342646, 342654, 756420, 1068934, 1198041, 1366854, 1393440, 1398320, 1398338, 1398360, 1] expanded 746339 updated 25533 openlist 1398386 time 215.750727892
+87
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 5, 11, 10], [13, 0, 2, 1], [8, 6, 14, 12], [4, 7, 3, 15]]
+./script.sh: line 3:  8599 Killed                  python astar_alg.py $i
+88
+run on ./data/korf100.txt
+sliding tile puzzle
+[[15, 2, 12, 11], [14, 13, 9, 5], [1, 3, 8, 7], [0, 10, 6, 4]]
+./script.sh: line 3:  8759 Killed                  python astar_alg.py $i
+89
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 1, 7, 4], [10, 13, 3, 8], [9, 14, 0, 15], [6, 5, 2, 12]]
+./script.sh: line 3:  9473 Killed                  python astar_alg.py $i
+90
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 4, 7, 1], [11, 12, 14, 15], [10, 13, 8, 6], [2, 0, 9, 3]]
+./script.sh: line 3:  9590 Killed                  python astar_alg.py $i
+91
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 7, 5, 2], [14, 15, 12, 10], [11, 3, 6, 1], [8, 13, 0, 4]]
+./script.sh: line 3:  9682 Killed                  python astar_alg.py $i
+92
+run on ./data/korf100.txt
+sliding tile puzzle
+[[3, 2, 7, 9], [0, 15, 12, 4], [6, 11, 5, 14], [8, 13, 10, 1]]
+./script.sh: line 3: 10946 Killed                  python astar_alg.py $i
+93
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 9, 14, 6], [12, 8, 1, 2], [3, 4, 0, 7], [5, 10, 11, 15]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 15, 264, 1674, 10275, 80480, 104095, 53575, 110193, 329885, 404737, 423657, 494146, 504367, 504380, 504395, 464990, 508828, 518608, 518620, 518629, 518642, 518659, 518683, 518703, 879661, 1496462, 2176632, 2180270, 2180288, 2180306, 2180326, 2180345, 2180366, 2180383, 2180422, 2180450, 2180479, 2180497, 2180519, 2180542, 2180569, 2180585, 2180604, 2180625, 1] expanded 1177502 updated 38316 openlist 2180657 time 362.033230066
+94
+run on ./data/korf100.txt
+sliding tile puzzle
+[[5, 7, 11, 8], [0, 14, 9, 13], [10, 12, 3, 15], [6, 1, 4, 2]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 3, 22, 31, 1737, 2186, 4609, 4704, 4881, 29522, 34959, 40253, 40257, 40261, 165120, 165124, 165127, 197697, 197700, 197703, 222421, 302943, 320174, 320176, 521166, 526351, 528844, 528858, 528872, 528886, 528905, 528925, 528946, 528969, 528984, 529000, 529016, 529030, 529050, 529066, 529079, 529097, 529114, 529129, 529144, 529160, 529172, 529188, 529200, 529215, 529232, 529243, 529255, 1] expanded 280977 updated 7106 openlist 529283 time 82.0479829311
+95
+run on ./data/korf100.txt
+sliding tile puzzle
+[[4, 3, 6, 13], [7, 15, 9, 0], [10, 5, 8, 11], [2, 12, 1, 14]]
+./script.sh: line 3: 11263 Killed                  python astar_alg.py $i
+96
+run on ./data/korf100.txt
+sliding tile puzzle
+[[1, 7, 15, 14], [2, 6, 4, 9], [12, 11, 13, 3], [0, 8, 5, 10]]
+./script.sh: line 3: 11365 Killed                  python astar_alg.py $i
+97
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 14, 5, 7], [8, 15, 1, 2], [10, 4, 13, 6], [12, 0, 11, 3]]
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]
+ [12 13 14 15]]
+count 1 path [0, 2, 5, 11, 16, 41, 393, 431, 1260, 1269, 1276, 1285, 1290, 1299, 1315, 1333, 3671, 4382, 8384, 8705, 8884, 8900, 8913, 25542, 25548, 25553, 32967, 35274, 35277, 61413, 89620, 287262, 862794, 964385, 1040980, 1138310, 1284184, 1284188, 1284191, 1284195, 1303740, 1370699, 1371334, 1371355, 1] expanded 732617 updated 20356 openlist 1371400 time 220.477205038
+98
+run on ./data/korf100.txt
+sliding tile puzzle
+[[0, 11, 3, 12], [5, 2, 1, 9], [8, 10, 14, 15], [7, 4, 13, 6]]
+./script.sh: line 3: 11514 Killed                  python astar_alg.py $i
+99
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 15, 4, 0], [10, 9, 2, 5], [12, 11, 13, 6], [1, 3, 14, 8]]
+	./script.sh: line 3: 11786 Killed                  python astar_alg.py $i
+100
+run on ./data/korf100.txt
+sliding tile puzzle
+[[11, 4, 0, 8], [6, 10, 5, 13], [12, 7, 14, 3], [1, 2, 9, 15]]
+./script.sh: line 3: 12023 Killed                  python astar_alg.py $i

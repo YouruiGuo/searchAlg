@@ -1,0 +1,5 @@
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ python nbs_alg.py 19
+run on ./data/korf100.txt
+sliding tile puzzle
+[[7, 11, 8, 3], [14, 0, 6, 15], [1, 4, 13, 9], [5, 12, 2, 10]]
+count 1 cost 46 updated 1 closedlist 54803 openlist 108628 time 100.220773935
