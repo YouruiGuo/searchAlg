@@ -1,0 +1,90 @@
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ python astar_alg.py
+3d voxel-based pathfinding
+count: 1 optimal path: 19.6062372389 ratio: 1.02005674234 openlist: 253 closedlist: 96
+count: 2 optimal path: 35.702613556 ratio: 1.01091553888 openlist: 858 closedlist: 578
+count: 3 optimal path: 11.8284271247 ratio: 1.6551902522 openlist: 268 closedlist: 112
+count: 4 optimal path: 37.6103659851 ratio: 1.20658799244 openlist: 3201 closedlist: 6588
+count: 5 optimal path: 20.1462643699 ratio: 1.34535421829 openlist: 1014 closedlist: 911
+count: 6 optimal path: 45.4845524164 ratio: 1.00854796926 openlist: 628 closedlist: 316
+count: 7 optimal path: 36.7067423023 ratio: 1.11403428447 openlist: 2031 closedlist: 3134
+count: 8 optimal path: 43.8522777143 ratio: 1.00886896466 openlist: 1026 closedlist: 926
+count: 9 optimal path: 31.070338854 ratio: 1.01575370675 openlist: 716 closedlist: 560
+count: 10 openlist: 1320 closedlist: 1775
+
+
+\begin{center}
+ \begin{tabular}{ |p{2cm}||p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
+ \hline
+ \multicolumn{5}{|c|}{A* on 3D Voxel-Based Path Finding} \\
+ \hline
+ Iteration & OptimalPath & ratio & openlist & closedlist \\ [0.5ex]
+ 1 & 19.60623724 & 1.020 & 253 & 96 \\
+ \hline
+ 2 & 35.7026135 & 1.011 & 858 & 578 \\
+ \hline
+ 3 & 11.82842712 & 1.655 & 268 & 112 \\
+ \hline
+ 4 & 37.61036598 & 1.207 & 3201 & 6588 \\
+ \hline
+ 5 & 20.14626437 &  1.345 & 1014 & 911 \\
+ \hline
+ 6 & 45.48455242 & 1.009 & 628 & 316
+ \hline
+ 7 & 36.70674230 & 1.1140 & 2031 & 3134 \\
+ \hline
+ 8 & 43.85227771 & 1.009 & 1026 & 926 \\
+ \hline
+ 9 & 31.07033885 & 1.016 & 716 & 560 \\
+ \hline
+ 10 & / & / & 1320 & 1775[1ex]
+ \hline
+\end{tabular}
+\end{center}
+
+
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ python astar_alg.py
+run on ./data/korf100.txt
+sliding tile puzzle
+count: 1 openlist: 14133 closedlist: 15174
+
+\begin{center}
+ \begin{tabular}{ |p{2cm}||p{3cm}|p{3cm}|p{3cm}|p{3cm}| }
+ \hline
+ \multicolumn{5}{|c|}{A* on Sliding Tile Puzzle} \\
+ \hline
+ Iteration & OptimalPath & ratio & openlist & closedlist \\ [0.5ex]
+ 1 & / & / & 14133 & 17174 \\[1ex]
+ \hline
+\end{tabular}
+\end{center}
+
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ python dfid_alg.py 3d
+3d voxel-based pathfinding
+count: 1 expanded: 1507280
+
+\begin{center}
+ \begin{tabular}{||c c c c||}
+ \hline
+ Iteration & OptimalPath & ratio & # Expanded Nodes \\ [0.5ex]
+ \hline\hline
+
+ 1& / & / & 1507280 \\[1ex]
+ \hline
+\end{tabular}
+\end{center}
+
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ python dfid_alg.py stp
+run on ./data/korf100.txt
+sliding tile puzzle
+count: 1 expanded: 240878
+
+\begin{center}
+ \begin{tabular}{||c c c c||}
+ \hline
+ Iteration & OptimalPath & ratio & openlist & closedlist \\ [0.5ex]
+ \hline\hline
+
+ 10 & / & / & 1320 & 1775[1ex]
+ \hline
+\end{tabular}
+\end{center}

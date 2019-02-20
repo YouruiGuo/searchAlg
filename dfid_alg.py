@@ -3,6 +3,7 @@ from stp_env import *
 #from voxel_env import *
 import signal
 import sys
+sys.path.append("env/")
 
 class DFID(object):
     """docstring for DFID."""

@@ -3,6 +3,7 @@ from stp_env import *
 #from voxel_env import *
 import signal, time
 import sys
+sys.path.append("env/")
 
 class IDAstar(object):
     """docstring for IDAstar."""

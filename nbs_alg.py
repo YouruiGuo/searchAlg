@@ -1,6 +1,7 @@
 import numpy as np
 import signal, time
 import sys
+sys.path.append("env/")
 from stp_env_new import *
 #from voxel_env import *
 
