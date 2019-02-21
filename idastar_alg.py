@@ -1,6 +1,7 @@
 import numpy as np
 import signal, time
 import sys
+sys.path.append("env/")
 from stp_env import *
 #from voxel_env import *
 
@@ -22,7 +23,7 @@ class IDAstar(object):
             #print threshold
             success = self.DFS(threshold, gcost, self.start, initAct, path)
             threshold = self.nextThreshold
-        print threshold
+        #print threshold
         return success
 
     def getCost(self, prev, curr):
@@ -118,7 +119,7 @@ if __name__ == '__main__':
     #search = IDAstar(vg)
     try:
         path = search.search(initAct)
-        print "path:", path, "expanded:", search.expanded
+        print "path length:",len(path), "expanded:", search.expanded
     except Exception as e:
         print "expanded:", search.expanded
         exit()
