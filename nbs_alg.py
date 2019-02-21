@@ -151,7 +151,6 @@ class SearchAlgorithm(object):
             self.forwardExpand(f_index)
             self.backwardExpand(b_index)
 
-
     def bestPair(self):
 
         if len(self.openf.queue) == 0:
@@ -160,7 +159,7 @@ class SearchAlgorithm(object):
             f_min = self.env.array[self.openf.peak()].gcost+\
                 self.env.array[self.openf.peak()].hcost
 
-        if len(self.readyf.queue) == 0:
+        if len(self.openb.queue) == 0:
             b_min = float("inf")
         else:
             b_min = self.env.array[self.openb.peak()].gcost+\
@@ -215,7 +214,7 @@ class SearchAlgorithm(object):
                 f_min = self.env.array[self.openf.peak()].gcost+\
                     self.env.array[self.openf.peak()].hcost
 
-            if len(self.readyf.queue) == 0:
+            if len(self.openb.queue) == 0:
                 b_min = float("inf")
             else:
                 b_min = self.env.array[self.openb.peak()].gcost+\
@@ -249,25 +248,36 @@ class SearchAlgorithm(object):
                 sum_gcost = self.env.array[index].gcost + \
                     self.env.cost(index, next) + self.env.array[next].gcost
                 if sum_gcost < self.C:
-                    self.updated += 1
                     self.C = sum_gcost
+
+                self.max_open += 1
+                self.env.array[next].gcost = self.env.array[index].gcost + \
+                                                self.env.cost(index, next)
+                self.env.array[next].parent = index
+                self.openf.heap_push(next,self.heu.HCost_NBS(next, self.goal_index))
+                self.env.array[next].value = 0
+
             elif (self.env.array[next].value in [0, 2]) or (next in self.closedf):
                 gcost = self.env.array[index].gcost + self.env.cost(index, next)
                 if gcost >= self.env.array[next].gcost:
                     continue
                 else:
                     if self.env.array[next].value == 0:
+                        self.updated += 1
                         self.env.array[next].gcost = gcost
                         self.env.array[next].parent = index
                         self.openf.siftUpByFcost(self.env.array[next].open_id)
                     elif self.env.array[next].value == 2:
+                        self.updated += 1
                         self.env.array[next].gcost = gcost
                         self.env.array[next].parent = index
                         self.readyf.siftUpByGcost(self.env.array[next].open_id)
+                    '''
                     elif next in self.closedf:
                         self.closedf.remove(next)
                         self.openf.heap_push(next, self.heu.HCost_NBS(next, self.goal_index))
                         self.env.array[next].value = 0
+                    '''
             else:
                 self.max_open += 1
                 self.env.array[next].gcost = self.env.array[index].gcost + \
@@ -289,8 +299,15 @@ class SearchAlgorithm(object):
                 sum_gcost = self.env.array[index].gcost + \
                     self.env.cost(index, next) + self.env.array[next].gcost
                 if sum_gcost < self.C:
-                    self.updated += 1
                     self.C = sum_gcost
+
+                self.max_open += 1
+                self.env.array[next].gcost = self.env.array[index].gcost + \
+                                                self.env.cost(index, next)
+                self.env.array[next].parent = index
+                self.openb.heap_push(next,self.heu.HCost_NBS(next, self.start_index))
+                self.env.array[next].value = 1
+
             if self.env.array[next].value in [1, 3] or \
                 next in self.closedb:
                 gcost = self.env.array[index].gcost + self.env.cost(index, next)
@@ -298,17 +315,21 @@ class SearchAlgorithm(object):
                     continue
                 else:
                     if self.env.array[next].value == 1:
+                        self.updated += 1
                         self.env.array[next].gcost = gcost
                         self.env.array[next].parent = index
                         self.openb.siftUpByFcost(self.env.array[next].open_id)
                     elif self.env.array[next].value == 3:
+                        self.updated += 1
                         self.env.array[next].gcost = gcost
                         self.env.array[next].parent = index
                         self.readyb.siftUpByGcost(self.env.array[next].open_id)
+                    '''
                     elif next in self.closedb: # not used
                         self.closedb.remove(next)
                         self.openb.heap_push(next, self.heu.HCost_NBS(next, self.start_index))
                         self.env.array[next].value = 1
+                    '''
             else:
                 self.max_open += 1
                 self.env.array[next].gcost = self.env.array[index].gcost + \
@@ -357,7 +378,9 @@ if __name__ == '__main__':
         print "count", count, "cost", path, "updated", search.updated,\
              "closedlist", len(search.closedb)+len(search.closedf), \
              "openlist", search.max_open, "time", t2-t1
-    except Exception as e:
+
+    except IndexError as e:
+        print e
         t2 = time.time()
         print  "updated", search.updated,\
              "closedlist", len(search.closedb)+len(search.closedf), \
