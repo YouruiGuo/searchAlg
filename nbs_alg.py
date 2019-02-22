@@ -2,8 +2,8 @@ import numpy as np
 import signal, time
 import sys
 sys.path.append("env/")
-#from stp_env_new import *
-from voxel_env_new import *
+from stp_env_new import *
+#from voxel_env_new import *
 
 class Heap(object):
     """docstring for Heap."""
@@ -376,11 +376,11 @@ def timeoutHandler(signum, frame):
     raise IndexError("3 minute mark")
 
 if __name__ == '__main__':
-    #benchmark = loadstpFile(int(sys.argv[1]))
-    #print "sliding tile puzzle"
+    benchmark = loadstpFile(int(sys.argv[1]))
+    print "sliding tile puzzle"
     test = [[1,2,7,6],[4,10,3,15],[8,11,5,14],[9,12,13,0]]
-    benchmark = load3dFile("./data/Simple.3dmap.3dscen",int(sys.argv[1]))
-    print "3d voxel-based pathfinding"
+    #benchmark = load3dFile("./data/Simple.3dmap.3dscen",int(sys.argv[1]))
+    #print "3d voxel-based pathfinding"
     count = 0
     signal.signal(signal.SIGALRM, timeoutHandler)
     signal.alarm(1800)
