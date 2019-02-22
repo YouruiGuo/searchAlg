@@ -4,6 +4,6 @@ for i in {15..19}
 do
   echo $i
   #python astar_alg.py 3d $i
-  nice -n 19 time python idastar_alg.py stp $i
+  nice -n 19 time python idastar_alg_retest.py stp $i
   #python nbs_alg.py $i
 done

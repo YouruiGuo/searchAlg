@@ -2,8 +2,8 @@ import numpy as np
 import signal, time
 import sys
 sys.path.append("env/")
-#from stp_env import *
-from voxel_env import *
+from stp_env import *
+#from voxel_env import *
 
 class IDAstar(object):
     """docstring for IDAstar."""
@@ -36,9 +36,6 @@ class IDAstar(object):
         #print "threshold", threshold, "hcost", self.heu.HCost(rootState), "gcost", gcost
         #print rootState, self.env.hashStates[rootState].stateValue
         #path.append(rootState)
-        if self.expanded % 10000 == 0:
-            print self.expanded
-
         if self.env.checkSuccess(rootState):
             return rootState
         if threshold < fcost:
@@ -83,7 +80,7 @@ def load3dFile(file, index):
 def loadstpFile(index):
     benchmarks = []
     #file = "./data/felner1000.txt"
-    file = "./data/korf100.txt"
+    #file = "./data/korf100.txt"
     file = "./data/korf100-idastar.txt"
     print "run on", file
     with open(file, "r") as fp:
@@ -115,7 +112,7 @@ if __name__ == '__main__':
 
     print benchmark["start"],  benchmark["goal"]
     signal.signal(signal.SIGALRM, timeoutHandler)
-    signal.alarm(1800)
+    signal.alarm(18000)
     #stp = slidingPuzzle(benchmark["start"], benchmark["goal"])
     search = IDAstar(benchmark["start"],  benchmark["goal"])
     #vg = VoxelGrids(benchmark["start"], benchmark["goal"])
