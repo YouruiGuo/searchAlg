@@ -50,11 +50,18 @@ class VoxelGrids(object):
     def getStateHash(self, s):
         # maximum of x/y/z is 1024 = 2^10
         state = s.stateValue
-        hash = state[0] << 10
-        hash = (hash + state[1]) << 10
+        hash = state[0] << 12
+        hash = (hash + state[1]) << 12
         hash += state[2]
         if hash not in self.hashStates:
             self.hashStates[hash] = s
+        return hash
+
+    def getState(self, state):
+        # maximum of x/y/z is 1024 = 2^10
+        hash = state[0] << 12
+        hash = (hash + state[1]) << 12
+        hash += state[2]
         return hash
 
     def checkVisited(self, state): # check state hash value
@@ -64,13 +71,18 @@ class VoxelGrids(object):
             return False
 
     def checkSuccess(self, currentState): # check if the game is over
-        if currentState == self.goalHashState: # check state hash value
+        count = 0
+        state = self.hashStates[currentState].stateValue
+        for i in range(3):
+            if self.goalState.stateValue[i] == state[i]:
+                count += 1
+        if count == 3:
             return True
         else:
             return False
 
-    def isInMap(self, s): # check state s in map or not
-        state = self.hashStates[s].stateValue
+    def isInMap(self, state): # check state s in map or not
+        #state = self.hashStates[s].stateValue
         check = 1
         if state[0] < 0 or state[0] > self.size[0]:
             check = 0
@@ -108,25 +120,41 @@ class VoxelGrids(object):
                 lz.append(action[2])
 
             aact = [[x, y, z] for x in lx for y in ly for z in lz]
+            aact.remove([0,0,0])
             # permutations of all possible single actions for an action
             filled = 0
             for a in aact: # check for every single action
-                s = self.applyAction(a, state)
-                if self.hashStates[s].gcost == float("inf"):
-                    # check if the voxel is filled or not
-                    filled = 1
-                if not self.isInMap(s): # check if the state is in map
+                s = self.checkAction(a, state)
+                self.undoAction(a, state)
+                if not s:
                     filled = 1
             if not filled:
                 actions.append(action)
         return actions
 
-
     def applyAction(self, action, currentState):
         state = self.hashStates[currentState].stateValue
+
         for i in range(3):
             state[i] += action[i]
+
         return self.cost(action)
+
+    def checkAction(self, action, currentState):
+        state = self.hashStates[currentState].stateValue
+
+        for i in range(3):
+            state[i] += action[i]
+
+        hash = self.getState(state)
+        try:
+            if self.hashStates[hash].gcost == float("inf"):
+                return False
+        except Exception as e:
+            pass
+        if not self.isInMap(state):
+            return False
+        return True
 
     def undoAction(self, action, currentState):
         state = self.hashStates[currentState].stateValue
@@ -144,7 +172,7 @@ class Heuristics(object):
     """docstring for Heuristics."""
     def __init__(self, start, goal):
         self.env = VoxelGrids(start, goal)
-        self.goal = self.env.goalState.stateValue
+        self.goal = goal
 
     def HCost(self, state):
         # voxel Heuristic

@@ -1,0 +1,404 @@
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ ./script.sh 
+0
+3d voxel-based pathfinding
+[50, 68, 48]
+count 1 cost 20.0491590949 updated 172 closedlist 114 openlist 620 time 0.202615976334
+1
+3d voxel-based pathfinding
+[55, 47, 47]
+count 1 cost 35.3171082873 updated 1407 closedlist 996 openlist 2630 time 1.78593993187
+2
+3d voxel-based pathfinding
+[52, 68, 49]
+count 1 cost 7.14626436994 updated 20 closedlist 24 openlist 194 time 0.0432460308075
+3
+3d voxel-based pathfinding
+[45, 51, 55]
+list index out of range
+updated 662 closedlist 338 openlist 1295 time 0.612697839737
+4
+3d voxel-based pathfinding
+[52, 67, 55]
+count 1 cost 17.2672202346 updated 209 closedlist 150 openlist 697 time 0.269858121872
+5
+3d voxel-based pathfinding
+[48, 47, 54]
+list index out of range
+updated 244 closedlist 165 openlist 763 time 0.296718120575
+6
+3d voxel-based pathfinding
+[59, 79, 51]
+count 1 cost 33.7778101141 updated 1436 closedlist 1076 openlist 2818 time 1.96408009529
+7
+3d voxel-based pathfinding
+[47, 49, 45]
+count 1 cost 44.2951995704 updated 1376 closedlist 942 openlist 2871 time 1.72624897957
+8
+3d voxel-based pathfinding
+[48, 49, 47]
+count 1 cost 30.7812099025 updated 581 closedlist 370 openlist 1521 time 0.666095018387
+9
+3d voxel-based pathfinding
+[48, 74, 57]
+count 1 cost 15.0744676002 updated 147 closedlist 100 openlist 555 time 0.182306051254
+10
+3d voxel-based pathfinding
+[54, 58, 57]
+count 1 cost 15.8530066722 updated 190 closedlist 116 openlist 646 time 0.205935955048
+11
+3d voxel-based pathfinding
+[52, 55, 55]
+count 1 cost 12.5850574798 updated 71 closedlist 58 openlist 411 time 0.106704950333
+12
+3d voxel-based pathfinding
+[57, 70, 48]
+count 1 cost 23.2207319702 updated 442 closedlist 338 openlist 1235 time 0.602215051651
+13
+3d voxel-based pathfinding
+[57, 63, 51]
+count 1 cost 15.1209558646 updated 99 closedlist 86 openlist 538 time 0.156685113907
+14
+3d voxel-based pathfinding
+[58, 68, 46]
+count 1 cost 11.0744676002 updated 58 closedlist 52 openlist 328 time 0.0950798988342
+15
+3d voxel-based pathfinding
+[52, 63, 58]
+count 1 cost 22.1920236765 updated 329 closedlist 184 openlist 811 time 0.330305099487
+16
+3d voxel-based pathfinding
+[48, 52, 48]
+count 1 cost 13.1209558646 updated 104 closedlist 76 openlist 462 time 0.139153957367
+17
+3d voxel-based pathfinding
+[56, 75, 56]
+count 1 cost 25.3171082873 updated 229 closedlist 146 openlist 822 time 0.265709161758
+18
+3d voxel-based pathfinding
+[51, 57, 52]
+count 1 cost 10.9746914947 updated 87 closedlist 72 openlist 411 time 0.128731012344
+19
+3d voxel-based pathfinding
+[47, 86, 49]
+count 1 cost 43.3205080757 updated 2330 closedlist 1670 openlist 4002 time 3.0642080307
+20
+3d voxel-based pathfinding
+[56, 53, 57]
+count 1 cost 15.2207319702 updated 145 closedlist 86 openlist 484 time 0.152759075165
+21
+3d voxel-based pathfinding
+[57, 52, 57]
+count 1 cost 33.2207319702 updated 977 closedlist 630 openlist 1928 time 1.1090400219
+22
+3d voxel-based pathfinding
+[58, 55, 57]
+count 1 cost 18.7812099025 updated 201 closedlist 150 openlist 736 time 0.266930103302
+23
+3d voxel-based pathfinding
+[46, 74, 59]
+count 1 cost 19.4633726573 updated 231 closedlist 156 openlist 683 time 0.274301052094
+24
+3d voxel-based pathfinding
+[48, 79, 57]
+count 1 cost 22.1489352004 updated 364 closedlist 240 openlist 938 time 0.427974939346
+25
+3d voxel-based pathfinding
+[59, 59, 56]
+count 1 cost 22.291799782 updated 358 closedlist 258 openlist 1026 time 0.478832960129
+26
+3d voxel-based pathfinding
+[58, 46, 53]
+count 1 cost 42.1920236765 updated 1968 closedlist 1598 openlist 3936 time 2.92780208588
+27
+3d voxel-based pathfinding
+[57, 64, 48]
+count 1 cost 18.902894725 updated 252 closedlist 184 openlist 800 time 0.331618070602
+28
+3d voxel-based pathfinding
+[58, 55, 46]
+count 1 cost 16.1708439174 updated 106 closedlist 88 openlist 504 time 0.160789012909
+29
+3d voxel-based pathfinding
+[56, 82, 52]
+count 1 cost 14.5385692154 updated 93 closedlist 112 openlist 566 time 0.199902057648
+30
+3d voxel-based pathfinding
+[55, 84, 51]
+count 1 cost 14.3635965517 updated 72 closedlist 90 openlist 477 time 0.160878896713
+31
+3d voxel-based pathfinding
+[47, 66, 46]
+count 1 cost 15.6814337969 updated 109 closedlist 66 openlist 421 time 0.119338035583
+32
+3d voxel-based pathfinding
+[45, 68, 49]
+count 1 cost 28.1701149595 updated 593 closedlist 424 openlist 1551 time 0.753939151764
+33
+3d voxel-based pathfinding
+[46, 74, 48]
+count 1 cost 32.1954234648 updated 973 closedlist 576 openlist 1919 time 1.03730297089
+34
+3d voxel-based pathfinding
+[46, 72, 50]
+count 1 cost 18.7778101141 updated 207 closedlist 180 openlist 781 time 0.321403980255
+35
+3d voxel-based pathfinding
+[54, 80, 47]
+count 1 cost 37.2419117293 updated 2184 closedlist 1640 openlist 3923 time 3.10734200478
+36
+3d voxel-based pathfinding
+[55, 81, 56]
+count 1 cost 15.1961524227 updated 150 closedlist 148 openlist 688 time 0.260726928711
+37
+3d voxel-based pathfinding
+[54, 82, 49]
+count 1 cost 22.6848335853 updated 310 closedlist 244 openlist 1038 time 0.432858943939
+38
+3d voxel-based pathfinding
+[45, 73, 57]
+count 1 cost 19.2419117293 updated 262 closedlist 184 openlist 816 time 0.3376557827
+39
+3d voxel-based pathfinding
+[53, 62, 57]
+count 1 cost 21.1954234648 updated 238 closedlist 154 openlist 723 time 0.273334980011
+40
+3d voxel-based pathfinding
+[50, 47, 50]
+count 1 cost 34.2672202346 updated 1162 closedlist 732 openlist 2007 time 1.28590393066
+41
+3d voxel-based pathfinding
+[56, 82, 55]
+count 1 cost 18.3171082873 updated 151 closedlist 116 openlist 609 time 0.206284999847
+42
+3d voxel-based pathfinding
+[57, 56, 49]
+count 1 cost 10.8031186194 updated 80 closedlist 64 openlist 388 time 0.11369395256
+43
+3d voxel-based pathfinding
+[57, 63, 55]
+count 1 cost 15.2672202346 updated 123 closedlist 96 openlist 521 time 0.170373916626
+44
+3d voxel-based pathfinding
+[55, 68, 52]
+count 1 cost 14.6349455325 updated 116 closedlist 58 openlist 378 time 0.106255054474
+45
+3d voxel-based pathfinding
+[48, 57, 57]
+count 1 cost 13.902894725 updated 76 closedlist 54 openlist 387 time 0.100251913071
+46
+3d voxel-based pathfinding
+[52, 48, 52]
+count 1 cost 30.7778101141 updated 846 closedlist 528 openlist 1678 time 0.928653001785
+47
+3d voxel-based pathfinding
+[53, 56, 53]
+count 1 cost 26.1708439174 updated 513 closedlist 308 openlist 1205 time 0.551676988602
+48
+3d voxel-based pathfinding
+[58, 65, 45]
+count 1 cost 15.8564064606 updated 121 closedlist 88 openlist 467 time 0.161832094193
+49
+3d voxel-based pathfinding
+[58, 74, 57]
+count 1 cost 19.1954234648 updated 263 closedlist 148 openlist 708 time 0.263297080994
+50
+3d voxel-based pathfinding
+[58, 77, 58]
+count 1 cost 27.4134846045 updated 590 closedlist 364 openlist 1397 time 0.653769016266
+51
+3d voxel-based pathfinding
+[48, 55, 49]
+count 1 cost 16.2207319702 updated 172 closedlist 130 openlist 609 time 0.229364871979
+52
+3d voxel-based pathfinding
+[51, 72, 52]
+count 1 cost 8.02457954745 updated 20 closedlist 22 openlist 193 time 0.0415241718292
+53
+3d voxel-based pathfinding
+[50, 64, 58]
+count 1 cost 21.1209558646 updated 533 closedlist 418 openlist 1397 time 0.756134986877
+54
+3d voxel-based pathfinding
+[45, 77, 55]
+count 1 cost 17.6315457442 updated 303 closedlist 260 openlist 964 time 0.462973117828
+55
+3d voxel-based pathfinding
+[48, 74, 50]
+count 1 cost 32.7313218497 updated 1074 closedlist 708 openlist 2212 time 1.26782512665
+56
+3d voxel-based pathfinding
+[56, 77, 49]
+count 1 cost 18.8564064606 updated 172 closedlist 134 openlist 702 time 0.244264125824
+57
+3d voxel-based pathfinding
+[55, 46, 50]
+count 1 cost 39.0491590949 updated 1902 closedlist 1468 openlist 3551 time 2.62915420532
+58
+3d voxel-based pathfinding
+[52, 78, 48]
+count 1 cost 11.535169427 updated 29 closedlist 46 openlist 326 time 0.0841031074524
+59
+3d voxel-based pathfinding
+[46, 60, 54]
+count 1 cost 16.5098609217 updated 177 closedlist 88 openlist 531 time 0.158681154251
+60
+3d voxel-based pathfinding
+[58, 53, 45]
+count 1 cost 35.2706200229 updated 1125 closedlist 746 openlist 2297 time 1.3568880558
+61
+3d voxel-based pathfinding
+[51, 83, 51]
+count 1 cost 11.1209558646 updated 95 closedlist 60 openlist 335 time 0.106808900833
+62
+3d voxel-based pathfinding
+[48, 66, 47]
+count 1 cost 15.9527827777 updated 98 closedlist 86 openlist 500 time 0.15404009819
+63
+3d voxel-based pathfinding
+[47, 53, 55]
+count 1 cost 14.0245795475 updated 164 closedlist 134 openlist 656 time 0.243768930435
+64
+3d voxel-based pathfinding
+[49, 77, 52]
+count 1 cost 8.92820323028 updated 21 closedlist 24 openlist 210 time 0.0449109077454
+65
+3d voxel-based pathfinding
+[59, 72, 45]
+count 1 cost 12.4387931098 updated 72 closedlist 62 openlist 378 time 0.111778020859
+66
+3d voxel-based pathfinding
+[56, 75, 58]
+count 1 cost 22.9992710421 updated 345 closedlist 258 openlist 1076 time 0.468236207962
+67
+3d voxel-based pathfinding
+[48, 75, 52]
+count 1 cost 12.8530066722 updated 109 closedlist 86 openlist 488 time 0.152320861816
+68
+3d voxel-based pathfinding
+[45, 70, 49]
+count 1 cost 20.4633726573 updated 202 closedlist 146 openlist 742 time 0.264461994171
+69
+3d voxel-based pathfinding
+[45, 60, 45]
+count 1 cost 19.4168843929 updated 392 closedlist 256 openlist 969 time 0.457606077194
+70
+3d voxel-based pathfinding
+[49, 52, 57]
+count 1 cost 13.902894725 updated 36 closedlist 34 openlist 319 time 0.0639050006866
+71
+3d voxel-based pathfinding
+[53, 67, 53]
+count 1 cost 4.56047793232 updated 0 closedlist 4 openlist 82 time 0.00755214691162
+72
+3d voxel-based pathfinding
+[57, 53, 53]
+count 1 cost 33.1954234648 updated 1093 closedlist 832 openlist 2299 time 1.49434399605
+73
+3d voxel-based pathfinding
+[56, 45, 45]
+count 1 cost 27.5631487628 updated 620 closedlist 396 openlist 1359 time 0.703543901443
+74
+3d voxel-based pathfinding
+[47, 77, 45]
+count 1 cost 31.9773623252 updated 1085 closedlist 714 openlist 2115 time 1.27982211113
+75
+3d voxel-based pathfinding
+[53, 66, 49]
+count 1 cost 20.2672202346 updated 278 closedlist 188 openlist 782 time 0.334942817688
+76
+3d voxel-based pathfinding
+[56, 54, 46]
+count 1 cost 38.0737386424 updated 2007 closedlist 1230 openlist 3169 time 2.2660241127
+77
+3d voxel-based pathfinding
+[58, 45, 47]
+count 1 cost 34.1489352004 updated 1326 closedlist 878 openlist 2476 time 1.57525110245
+78
+3d voxel-based pathfinding
+[51, 61, 53]
+count 1 cost 11.756630355 updated 72 closedlist 64 openlist 397 time 0.114861011505
+79
+3d voxel-based pathfinding
+[54, 82, 46]
+count 1 cost 31.5884572681 updated 590 closedlist 404 openlist 1641 time 0.737081050873
+80
+3d voxel-based pathfinding
+[51, 62, 56]
+count 1 cost 8.41421356237 updated 37 closedlist 60 openlist 354 time 0.107801914215
+81
+3d voxel-based pathfinding
+[52, 61, 51]
+count 1 cost 19.9746914947 updated 437 closedlist 310 openlist 1082 time 0.556488037109
+82
+3d voxel-based pathfinding
+[58, 76, 45]
+count 1 cost 32.1988232532 updated 723 closedlist 488 openlist 1662 time 0.880783081055
+83
+3d voxel-based pathfinding
+[56, 64, 51]
+count 1 cost 12.8994949366 updated 45 closedlist 54 openlist 356 time 0.100764036179
+84
+3d voxel-based pathfinding
+[46, 73, 58]
+count 1 cost 21.1455354121 updated 217 closedlist 168 openlist 759 time 0.295892000198
+85
+3d voxel-based pathfinding
+[45, 67, 53]
+count 1 cost 18.5563491861 updated 321 closedlist 224 openlist 898 time 0.399963140488
+86
+3d voxel-based pathfinding
+[52, 62, 53]
+count 1 cost 19.4599728689 updated 333 closedlist 254 openlist 1025 time 0.457948923111
+87
+3d voxel-based pathfinding
+[53, 53, 53]
+count 1 cost 38.8276981669 updated 1701 closedlist 1098 openlist 2745 time 2.00999403
+88
+3d voxel-based pathfinding
+[45, 58, 47]
+count 1 cost 8.61036598508 updated 25 closedlist 20 openlist 190 time 0.038104057312
+89
+3d voxel-based pathfinding
+[55, 48, 55]
+count 1 cost 29.6848335853 updated 679 closedlist 374 openlist 1484 time 0.66606593132
+90
+3d voxel-based pathfinding
+[56, 55, 51]
+count 1 cost 20.1708439174 updated 158 closedlist 128 openlist 686 time 0.236615896225
+91
+3d voxel-based pathfinding
+[50, 63, 57]
+count 1 cost 14.902894725 updated 72 closedlist 60 openlist 401 time 0.108294010162
+92
+3d voxel-based pathfinding
+[53, 48, 47]
+count 1 cost 19.4134846045 updated 306 closedlist 218 openlist 857 time 0.381160974503
+93
+3d voxel-based pathfinding
+[57, 83, 48]
+list index out of range
+updated 1913 closedlist 1389 openlist 3479 time 2.5430829525
+94
+3d voxel-based pathfinding
+[58, 75, 48]
+count 1 cost 37.9274742724 updated 1791 closedlist 1372 openlist 3542 time 2.56351613998
+95
+3d voxel-based pathfinding
+[59, 68, 47]
+count 1 cost 13.756630355 updated 109 closedlist 106 openlist 578 time 0.191721916199
+96
+3d voxel-based pathfinding
+[53, 60, 56]
+count 1 cost 24.5385692154 updated 385 closedlist 298 openlist 1171 time 0.535086870193
+97
+3d voxel-based pathfinding
+[47, 76, 54]
+count 1 cost 16.5385692154 updated 144 closedlist 116 openlist 601 time 0.205206155777
+98
+3d voxel-based pathfinding
+[48, 58, 55]
+count 1 cost 17.5884572681 updated 175 closedlist 132 openlist 635 time 0.239218950272
+99
+3d voxel-based pathfinding
+[57, 61, 49]
+count 1 cost 25.070338854 updated 423 closedlist 302 openlist 1243 time 0.552495956421

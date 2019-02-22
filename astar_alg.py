@@ -2,8 +2,8 @@ import numpy as np
 import signal, time
 import sys
 sys.path.append("env/")
-from stp_env_new import *
-#from voxel_env import *
+#from stp_env_new import *
+from voxel_env_new import *
 
 class Heap(object):
     """docstring for Heap."""
@@ -167,7 +167,7 @@ class SearchAlgorithm(object):
         if len(self.closedlist)%1000 == 0:
             print("closedlist:",len(self.closedlist))
 
-def load3dFile(file):
+def load3dFile(file, index):
     benchmarks = []
     with open(file, "r+") as fp:
         fp.readline()
@@ -181,21 +181,12 @@ def load3dFile(file):
             benchmark["path"] = splited[6]
             benchmark["ratio"] = splited[7]
             benchmarks.append(benchmark)
-    return benchmarks
+    return benchmarks[index]
 
 def loadstpFile(index):
     benchmarks = []
     #file = "./data/felner1000.txt"
     file = "./data/korf100.txt"
-    #file = "./data/korf100-2.txt"
-    #file = "./data/korf100-3.txt"
-    #file = "./data/korf100-4.txt"
-    #file = "./data/korf100-5.txt"
-    #file = "./data/korf100-6.txt"
-    #file = "./data/korf100-7.txt"
-    #file = "./data/korf100-8.txt"
-    #file = "./data/korf100-9.txt"
-    #file = "./data/korf100-10.txt"
     print "run on", file
     with open(file, "r") as fp:
         lines = fp.readlines()
@@ -211,10 +202,10 @@ def loadstpFile(index):
     return benchmarks[index]
 
 if __name__ == '__main__':
-    benchmark = loadstpFile(int(sys.argv[1])-1)
-    print "sliding tile puzzle"
-    #benchmarks = load3dFile("./data/Simple.3dmap.3dscen")
-    #print "3d voxel-based pathfinding"
+    #benchmark = loadstpFile(int(sys.argv[1])-1)
+    #print "sliding tile puzzle"
+    benchmark = load3dFile("./data/Simple.3dmap.3dscen", int(sys.argv[2]))
+    print "3d voxel-based pathfinding"
     count = 0
 
     #for benchmark in benchmarks:

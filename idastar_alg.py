@@ -2,8 +2,8 @@ import numpy as np
 import signal, time
 import sys
 sys.path.append("env/")
-from stp_env import *
-#from voxel_env import *
+#from stp_env import *
+from voxel_env import *
 
 class IDAstar(object):
     """docstring for IDAstar."""
@@ -15,12 +15,11 @@ class IDAstar(object):
         self.nextThreshold = self.heu.HCost(self.start)
 
     def search(self, initAct):
-        path = []
         success = None
         threshold = self.nextThreshold
         gcost = 0
+        path = []
         while success is None:
-            #print threshold
             success = self.DFS(threshold, gcost, self.start, initAct, path)
             threshold = self.nextThreshold
         #print threshold
@@ -37,6 +36,8 @@ class IDAstar(object):
         #print "threshold", threshold, "hcost", self.heu.HCost(rootState), "gcost", gcost
         #print rootState, self.env.hashStates[rootState].stateValue
         #path.append(rootState)
+        if self.expanded % 10000 == 0:
+            print self.expanded
 
         if self.env.checkSuccess(rootState):
             return rootState
@@ -47,7 +48,6 @@ class IDAstar(object):
             return None
 
         actions = self.env.getActions(rootState)
-        #print(self.env.hashStates[rootState],actions)
         for action in actions:
             #print action, actions
             #print rootState
@@ -64,7 +64,7 @@ class IDAstar(object):
                 return path
 
 
-def load3dFile(file):
+def load3dFile(file, index):
     benchmarks = []
     with open(file, "r+") as fp:
         fp.readline()
@@ -78,7 +78,7 @@ def load3dFile(file):
             benchmark["path"] = splited[6]
             benchmark["ratio"] = splited[7]
             benchmarks.append(benchmark)
-    return benchmarks
+    return benchmarks[index]
 
 def loadstpFile(index):
     benchmarks = []
@@ -108,22 +108,24 @@ if __name__ == '__main__':
         initAct = -1
     if sys.argv[1] == "3d":
         initAct = [-1, -1, -1]
-        benchmarks = load3dFile("./data/Simple.3dmap.3dscen")
+        benchmark = load3dFile("./data/Simple.3dmap.3dscen", int(sys.argv[2]))
         print "3d voxel-based pathfinding"
-    print benchmark["start"]
+
+    print benchmark["start"],  benchmark["goal"]
     signal.signal(signal.SIGALRM, timeoutHandler)
     signal.alarm(1800)
     #stp = slidingPuzzle(benchmark["start"], benchmark["goal"])
-    search = IDAstar(benchmark["start"], benchmark["goal"])
+    search = IDAstar(benchmark["start"],  benchmark["goal"])
     #vg = VoxelGrids(benchmark["start"], benchmark["goal"])
     #search = IDAstar(vg)
-    try:
-        path = search.search(initAct)
-        print "path length:",len(path), "expanded:", search.expanded
+    #try:
+    path = search.search(initAct)
+    print "path length:",len(path), "expanded:", search.expanded
+    '''
     except Exception as e:
         print "expanded:", search.expanded
         exit()
-
+    '''
 
     #print(search.env.hashStates[search.start])
     #path = search.DFS(1, search.start, path=[])

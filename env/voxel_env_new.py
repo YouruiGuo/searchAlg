@@ -17,7 +17,6 @@ class VoxelGrids(object):
     """docstring for VoxelGrids."""
     def __init__(self, start, goal):
         self.hashStates = {}
-        self.allActions.remove([0,0,0])
         self.gcost = 0
         self.size = []
         self.array = []
@@ -28,7 +27,7 @@ class VoxelGrids(object):
     def initialization(self, start, goal):
         self.singleActions = [-1, 0, 1]
         self.allActions = [[x,y,z] for x in self.singleActions for y in self.singleActions for z in self.singleActions]
-
+        self.allActions.remove([0,0,0])
         start_state = State(start)
         goal_state = State(goal)
 
@@ -150,6 +149,19 @@ class Heuristics(object):
     def __init__(self, start, goal):
         self.env = VoxelGrids(start, goal)
         self.goal = goal
+
+    def HCost(self, index):
+        # voxel Heuristic
+        state = self.env.array[index].stateValue
+        delta_x = abs(state[0] - self.goal[0])
+        delta_y = abs(state[1] - self.goal[1])
+        delta_z = abs(state[2] - self.goal[2])
+        dmax = max(delta_x, delta_y, delta_z)
+        dmin = min(delta_x, delta_y, delta_z)
+        dmid = delta_x + delta_y + delta_z - dmax - dmin
+        hvoxel = (math.sqrt(3)-math.sqrt(2))*dmin + (math.sqrt(2)-1)*dmid + dmax
+
+        return hvoxel
 
     def HCost_NBS(self, index, goal):
         # voxel Heuristic

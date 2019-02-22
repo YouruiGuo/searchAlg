@@ -1,0 +1,502 @@
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ ./script.sh 
+0
+3d voxel-based pathfinding
+[50, 68, 48]
+[56, 54, 56]
+count 1 path [0, 522, 274, 592, 600, 614, 632, 638, 644, 653, 673, 674, 128, 722, 1] expanded 44 updated 47 openlist 346 time 0.0752158164978
+1
+3d voxel-based pathfinding
+[55, 47, 47]
+[50, 77, 56]
+count 1 path [0, 530, 553, 26, 597, 639, 648, 784, 788, 789, 814, 133, 137, 141, 145, 177, 181, 185, 189, 261, 265, 269, 273, 305, 309, 313, 317, 389, 475, 1125, 1] expanded 200 updated 450 openlist 841 time 0.340404987335
+2
+3d voxel-based pathfinding
+[52, 68, 49]
+[51, 66, 55]
+count 1 path [0, 279, 533, 546, 557, 350, 1] expanded 11 updated 11 openlist 109 time 0.0187959671021
+3
+3d voxel-based pathfinding
+[45, 51, 55]
+[52, 78, 51]
+count 1 path [0, 525, 546, 572, 578, 593, 617, 623, 642, 141, 678, 702, 721, 741, 770, 796, 812, 828, 839, 850, 861, 872, 921, 942, 971, 985, 1008, 1] expanded 100 updated 154 openlist 666 time 0.178019046783
+4
+3d voxel-based pathfinding
+[52, 67, 55]
+[53, 80, 51]
+count 1 path [0, 356, 535, 553, 569, 584, 588, 594, 600, 619, 628, 637, 646, 1] expanded 41 updated 87 openlist 254 time 0.0688970088959
+5
+3d voxel-based pathfinding
+[48, 47, 54]
+[59, 85, 46]
+count 1 path [0, 537, 548, 568, 577, 92, 97, 114, 115, 116, 117, 222, 713, 719, 725, 731, 737, 743, 749, 755, 761, 767, 773, 779, 785, 791, 797, 803, 809, 815, 826, 459, 848, 868, 893, 922, 928, 943, 1] expanded 68 updated 29 openlist 608 time 0.122145175934
+6
+3d voxel-based pathfinding
+[59, 79, 51]
+[51, 50, 53]
+count 1 path [0, 519, 548, 570, 598, 622, 638, 341, 337, 333, 301, 297, 293, 289, 217, 213, 209, 205, 173, 933, 946, 966, 977, 984, 997, 1114, 1142, 1158, 1175, 1] expanded 326 updated 1011 openlist 991 time 0.550523042679
+7
+3d voxel-based pathfinding
+[47, 49, 45]
+[58, 84, 57]
+count 1 path [0, 529, 544, 555, 572, 698, 733, 64, 760, 861, 866, 871, 885, 908, 936, 954, 981, 995, 1013, 1029, 1045, 1061, 1077, 1093, 1107, 1121, 1150, 425, 1194, 1222, 1258, 1277, 1286, 1305, 1319, 1] expanded 122 updated 85 openlist 1022 time 0.2251060009
+8
+3d voxel-based pathfinding
+[48, 49, 47]
+[57, 73, 56]
+count 1 path [0, 539, 563, 566, 577, 584, 591, 598, 605, 612, 147, 674, 688, 694, 701, 707, 713, 719, 725, 731, 737, 333, 771, 803, 1] expanded 114 updated 462 openlist 778 time 0.210240125656
+9
+3d voxel-based pathfinding
+[48, 74, 57]
+[53, 63, 51]
+count 1 path [0, 534, 541, 559, 568, 578, 348, 626, 649, 652, 670, 1] expanded 21 updated 8 openlist 221 time 0.036190032959
+10
+3d voxel-based pathfinding
+[54, 58, 57]
+[51, 51, 45]
+count 1 path [0, 516, 554, 128, 81, 80, 79, 78, 672, 702, 731, 740, 1] expanded 107 updated 324 openlist 418 time 0.182380199432
+11
+3d voxel-based pathfinding
+[52, 55, 55]
+[48, 63, 47]
+count 1 path [0, 116, 535, 132, 557, 575, 587, 602, 1] expanded 21 updated 65 openlist 207 time 0.036994934082
+12
+3d voxel-based pathfinding
+[57, 70, 48]
+[49, 52, 54]
+count 1 path [0, 519, 540, 555, 569, 611, 621, 636, 198, 655, 671, 137, 133, 61, 57, 716, 748, 785, 1] expanded 49 updated 64 openlist 395 time 0.0894069671631
+13
+3d voxel-based pathfinding
+[57, 63, 51]
+[53, 75, 53]
+count 1 path [0, 530, 548, 559, 568, 582, 301, 605, 617, 627, 637, 647, 1] expanded 19 updated 20 openlist 189 time 0.0336098670959
+14
+3d voxel-based pathfinding
+[58, 68, 46]
+[52, 73, 53]
+count 1 path [0, 530, 544, 561, 595, 335, 643, 1] expanded 17 updated 21 openlist 167 time 0.0306439399719
+15
+3d voxel-based pathfinding
+[52, 63, 58]
+[54, 46, 47]
+count 1 path [0, 515, 540, 549, 558, 567, 592, 620, 647, 666, 105, 41, 36, 31, 743, 755, 783, 1] expanded 113 updated 329 openlist 483 time 0.19363284111
+16
+3d voxel-based pathfinding
+[48, 52, 48]
+[54, 54, 58]
+count 1 path [0, 521, 546, 549, 558, 13, 96, 599, 621, 632, 1] expanded 20 updated 7 openlist 199 time 0.0358588695526
+17
+3d voxel-based pathfinding
+[56, 75, 56]
+[50, 55, 48]
+count 1 path [0, 516, 541, 555, 567, 619, 634, 649, 292, 664, 197, 684, 696, 713, 723, 729, 735, 744, 839, 850, 1] expanded 62 updated 87 openlist 480 time 0.11118388176
+18
+3d voxel-based pathfinding
+[51, 57, 52]
+[52, 66, 56]
+count 1 path [0, 519, 533, 224, 563, 575, 594, 605, 614, 1] expanded 27 updated 43 openlist 189 time 0.0467081069946
+19
+3d voxel-based pathfinding
+[47, 86, 49]
+[55, 50, 57]
+count 1 path [0, 515, 548, 564, 578, 600, 440, 639, 502, 485, 484, 483, 482, 377, 376, 375, 374, 357, 356, 355, 354, 249, 248, 247, 246, 229, 228, 227, 1257, 1335, 1336, 1350, 1374, 1388, 1402, 1416, 1] expanded 174 updated 311 openlist 1121 time 0.308987855911
+20
+3d voxel-based pathfinding
+[56, 53, 57]
+[50, 63, 49]
+count 1 path [0, 528, 551, 128, 129, 587, 610, 625, 142, 647, 1] expanded 22 updated 45 openlist 220 time 0.0397160053253
+21
+3d voxel-based pathfinding
+[57, 52, 57]
+[53, 80, 51]
+count 1 path [0, 526, 545, 574, 599, 607, 629, 641, 669, 679, 751, 761, 788, 819, 839, 845, 851, 857, 863, 869, 875, 881, 887, 893, 899, 905, 911, 464, 1] expanded 119 updated 242 openlist 686 time 0.207365036011
+22
+3d voxel-based pathfinding
+[58, 55, 57]
+[46, 66, 50]
+count 1 path [0, 528, 556, 566, 587, 231, 645, 659, 175, 679, 693, 712, 1] expanded 22 updated 40 openlist 264 time 0.040097951889
+23
+3d voxel-based pathfinding
+[46, 74, 59]
+[56, 82, 47]
+count 1 path [0, 538, 565, 573, 586, 618, 401, 642, 665, 456, 698, 720, 1] expanded 40 updated 76 openlist 322 time 0.0719139575958
+24
+3d voxel-based pathfinding
+[48, 79, 57]
+[59, 66, 45]
+count 1 path [0, 534, 561, 567, 475, 602, 617, 639, 334, 661, 679, 698, 717, 1] expanded 26 updated 62 openlist 284 time 0.046972990036
+25
+3d voxel-based pathfinding
+[59, 59, 56]
+[49, 74, 47]
+count 1 path [0, 525, 540, 549, 561, 578, 602, 634, 291, 284, 715, 733, 743, 749, 758, 1] expanded 55 updated 132 openlist 389 time 0.100180149078
+26
+3d voxel-based pathfinding
+[58, 46, 53]
+[47, 83, 51]
+count 1 path [0, 528, 550, 575, 32, 620, 634, 647, 677, 703, 806, 811, 802, 855, 879, 904, 930, 1049, 1074, 188, 260, 264, 268, 272, 304, 308, 312, 316, 388, 392, 1222, 1242, 1254, 1267, 1279, 1291, 1303, 1] expanded 253 updated 743 openlist 1033 time 0.444797039032
+27
+3d voxel-based pathfinding
+[57, 64, 48]
+[52, 50, 56]
+count 1 path [0, 524, 549, 559, 572, 579, 586, 593, 83, 610, 632, 640, 100, 669, 1] expanded 23 updated 15 openlist 241 time 0.0413908958435
+28
+3d voxel-based pathfinding
+[58, 55, 46]
+[52, 67, 51]
+count 1 path [0, 527, 551, 578, 602, 156, 658, 689, 711, 729, 743, 763, 1] expanded 61 updated 155 openlist 341 time 0.108154058456
+29
+3d voxel-based pathfinding
+[56, 82, 52]
+[48, 73, 59]
+count 1 path [0, 524, 512, 507, 581, 604, 621, 642, 661, 1] expanded 18 updated 25 openlist 212 time 0.0322539806366
+30
+3d voxel-based pathfinding
+[55, 84, 51]
+[45, 75, 51]
+count 1 path [0, 517, 542, 553, 570, 439, 588, 601, 613, 634, 1] expanded 19 updated 48 openlist 179 time 0.0379168987274
+31
+3d voxel-based pathfinding
+[47, 66, 46]
+[56, 69, 57]
+count 1 path [0, 539, 554, 581, 275, 601, 610, 631, 361, 647, 665, 1] expanded 75 updated 224 openlist 354 time 0.128759860992
+32
+3d voxel-based pathfinding
+[45, 68, 49]
+[59, 49, 57]
+count 1 path [0, 536, 574, 576, 594, 609, 643, 145, 224, 724, 750, 788, 805, 832, 853, 880, 896, 920, 947, 1] expanded 107 updated 224 openlist 606 time 0.182830810547
+33
+3d voxel-based pathfinding
+[46, 74, 48]
+[55, 49, 58]
+count 1 path [0, 536, 560, 587, 594, 272, 654, 355, 692, 716, 759, 770, 799, 829, 855, 896, 949, 1073, 1083, 1093, 1103, 1115, 1127, 1139, 1151, 1] expanded 153 updated 287 openlist 781 time 0.270962953568
+34
+3d voxel-based pathfinding
+[46, 72, 50]
+[56, 86, 50]
+count 1 path [0, 525, 546, 558, 582, 588, 615, 434, 448, 453, 671, 691, 709, 747, 1] expanded 52 updated 134 openlist 314 time 0.0909769535065
+35
+3d voxel-based pathfinding
+[54, 80, 47]
+[50, 49, 59]
+count 1 path [0, 524, 540, 567, 579, 599, 606, 633, 663, 709, 318, 277, 276, 275, 812, 822, 839, 859, 882, 981, 1027, 1052, 1072, 1092, 1118, 115, 114, 1187, 1198, 1217, 1252, 1] expanded 239 updated 477 openlist 1011 time 0.406167984009
+36
+3d voxel-based pathfinding
+[55, 81, 56]
+[52, 68, 53]
+count 1 path [0, 520, 540, 553, 560, 488, 577, 591, 607, 616, 630, 639, 648, 1] expanded 23 updated 27 openlist 209 time 0.0398910045624
+37
+3d voxel-based pathfinding
+[54, 82, 49]
+[45, 66, 58]
+count 1 path [0, 457, 544, 551, 565, 571, 577, 596, 616, 317, 649, 664, 684, 700, 727, 746, 1] expanded 48 updated 84 openlist 452 time 0.0868048667908
+38
+3d voxel-based pathfinding
+[45, 73, 57]
+[58, 71, 45]
+count 1 path [0, 532, 546, 561, 583, 313, 612, 629, 327, 653, 663, 739, 764, 1] expanded 59 updated 211 openlist 359 time 0.104608058929
+39
+3d voxel-based pathfinding
+[53, 62, 57]
+[46, 76, 45]
+count 1 path [0, 528, 568, 245, 595, 620, 656, 271, 678, 697, 718, 757, 766, 893, 1] expanded 88 updated 282 openlist 485 time 0.152784109116
+40
+3d voxel-based pathfinding
+[50, 47, 50]
+[56, 77, 51]
+count 1 path [0, 537, 540, 22, 23, 24, 29, 70, 71, 72, 73, 159, 163, 167, 755, 759, 768, 783, 792, 801, 810, 819, 828, 837, 846, 855, 864, 873, 996, 1007, 1] expanded 160 updated 338 openlist 663 time 0.274379014969
+41
+3d voxel-based pathfinding
+[56, 82, 55]
+[48, 69, 51]
+count 1 path [0, 519, 545, 571, 599, 620, 644, 654, 482, 699, 312, 308, 740, 1] expanded 59 updated 172 openlist 362 time 0.102066993713
+42
+3d voxel-based pathfinding
+[57, 56, 49]
+[49, 57, 55]
+count 1 path [0, 523, 547, 83, 565, 585, 595, 112, 1] expanded 15 updated 16 openlist 156 time 0.0255289077759
+43
+3d voxel-based pathfinding
+[57, 63, 55]
+[46, 60, 49]
+count 1 path [0, 520, 543, 254, 250, 246, 618, 176, 642, 660, 685, 1] expanded 54 updated 172 openlist 324 time 0.0934729576111
+44
+3d voxel-based pathfinding
+[55, 68, 52]
+[46, 59, 58]
+count 1 path [0, 293, 358, 249, 560, 579, 608, 630, 641, 1] expanded 20 updated 42 openlist 220 time 0.0367629528046
+45
+3d voxel-based pathfinding
+[48, 57, 57]
+[56, 48, 52]
+count 1 path [0, 534, 557, 574, 593, 618, 107, 106, 673, 1] expanded 21 updated 19 openlist 229 time 0.0374760627747
+46
+3d voxel-based pathfinding
+[52, 48, 52]
+[58, 74, 54]
+count 1 path [0, 525, 540, 549, 566, 45, 77, 81, 85, 89, 161, 165, 731, 736, 747, 768, 774, 792, 813, 828, 843, 858, 873, 888, 903, 924, 1] expanded 156 updated 293 openlist 638 time 0.266822814941
+47
+3d voxel-based pathfinding
+[53, 56, 53]
+[59, 78, 58]
+count 1 path [0, 521, 234, 235, 236, 590, 621, 628, 635, 648, 774, 795, 825, 839, 845, 854, 863, 872, 881, 890, 934, 948, 1] expanded 80 updated 128 openlist 509 time 0.140400886536
+48
+3d voxel-based pathfinding
+[58, 65, 45]
+[48, 57, 53]
+count 1 path [0, 524, 549, 573, 597, 156, 646, 666, 61, 684, 1] expanded 21 updated 30 openlist 237 time 0.0380342006683
+49
+3d voxel-based pathfinding
+[58, 74, 57]
+[46, 78, 46]
+count 1 path [0, 518, 550, 561, 421, 603, 630, 404, 665, 680, 702, 766, 1] expanded 67 updated 230 openlist 384 time 0.11400604248
+50
+3d voxel-based pathfinding
+[58, 77, 58]
+[53, 55, 49]
+count 1 path [0, 515, 540, 549, 561, 573, 597, 382, 662, 680, 698, 712, 201, 200, 199, 198, 157, 156, 155, 883, 1133, 1146, 1] expanded 217 updated 646 openlist 774 time 0.364815950394
+51
+3d voxel-based pathfinding
+[48, 55, 49]
+[55, 47, 59]
+count 1 path [0, 536, 15, 570, 580, 96, 616, 637, 648, 678, 1] expanded 32 updated 94 openlist 258 time 0.0559160709381
+52
+3d voxel-based pathfinding
+[51, 72, 52]
+[46, 75, 57]
+count 1 path [0, 313, 539, 556, 578, 1] expanded 12 updated 27 openlist 128 time 0.0212390422821
+53
+3d voxel-based pathfinding
+[50, 64, 58]
+[52, 82, 52]
+count 1 path [0, 525, 540, 549, 565, 589, 607, 375, 647, 661, 684, 713, 750, 767, 782, 833, 874, 892, 1] expanded 112 updated 323 openlist 476 time 0.197939157486
+54
+3d voxel-based pathfinding
+[45, 77, 55]
+[59, 76, 47]
+count 1 path [0, 531, 541, 556, 584, 399, 405, 630, 649, 680, 705, 720, 747, 759, 1] expanded 64 updated 209 openlist 330 time 0.110542058945
+55
+3d voxel-based pathfinding
+[48, 74, 50]
+[57, 47, 56]
+count 1 path [0, 515, 540, 560, 571, 271, 267, 263, 259, 639, 680, 251, 250, 233, 232, 231, 230, 125, 124, 123, 122, 105, 104, 103, 106, 887, 957, 1] expanded 217 updated 508 openlist 922 time 0.36856007576
+56
+3d voxel-based pathfinding
+[56, 77, 49]
+[48, 64, 57]
+count 1 path [0, 524, 419, 561, 583, 372, 617, 632, 650, 660, 684, 698, 707, 1] expanded 22 updated 24 openlist 254 time 0.0394999980927
+57
+3d voxel-based pathfinding
+[55, 46, 50]
+[47, 79, 54]
+count 1 path [0, 527, 546, 555, 30, 27, 24, 21, 62, 63, 64, 65, 131, 750, 762, 768, 774, 780, 786, 792, 798, 804, 810, 816, 822, 828, 834, 840, 906, 983, 997, 1005, 1020, 1] expanded 86 updated 164 openlist 678 time 0.153571844101
+58
+3d voxel-based pathfinding
+[52, 78, 48]
+[45, 78, 56]
+count 1 path [0, 523, 430, 550, 568, 582, 595, 608, 1] expanded 13 updated 15 openlist 137 time 0.0224931240082
+59
+3d voxel-based pathfinding
+[46, 60, 54]
+[57, 49, 51]
+count 1 path [0, 534, 552, 579, 57, 613, 625, 640, 40, 653, 672, 1] expanded 27 updated 89 openlist 263 time 0.0474359989166
+60
+3d voxel-based pathfinding
+[58, 53, 45]
+[50, 82, 54]
+count 1 path [0, 529, 544, 560, 601, 623, 638, 166, 170, 202, 206, 210, 214, 286, 290, 294, 720, 746, 777, 857, 867, 882, 892, 906, 920, 934, 495, 496, 497, 1] expanded 193 updated 557 openlist 1041 time 0.338317155838
+61
+3d voxel-based pathfinding
+[51, 83, 51]
+[57, 75, 53]
+count 1 path [0, 515, 542, 544, 559, 459, 569, 590, 1] expanded 13 updated 14 openlist 145 time 0.0220770835876
+62
+3d voxel-based pathfinding
+[48, 66, 47]
+[57, 73, 57]
+count 1 path [0, 539, 563, 266, 588, 605, 624, 383, 650, 664, 1] expanded 22 updated 38 openlist 230 time 0.0374460220337
+63
+3d voxel-based pathfinding
+[47, 53, 55]
+[58, 56, 50]
+count 1 path [0, 538, 562, 53, 574, 581, 610, 83, 621, 630, 640, 1] expanded 27 updated 50 openlist 213 time 0.0466680526733
+64
+3d voxel-based pathfinding
+[49, 77, 52]
+[55, 73, 56]
+count 1 path [0, 397, 479, 557, 575, 597, 1] expanded 13 updated 18 openlist 141 time 0.0225541591644
+65
+3d voxel-based pathfinding
+[59, 72, 45]
+[51, 69, 52]
+count 1 path [0, 524, 549, 572, 604, 330, 647, 663, 1] expanded 31 updated 82 openlist 214 time 0.0547881126404
+66
+3d voxel-based pathfinding
+[56, 75, 58]
+[52, 57, 49]
+count 1 path [0, 515, 540, 549, 561, 573, 593, 364, 293, 288, 697, 196, 752, 891, 951, 952, 969, 975, 1] expanded 152 updated 435 openlist 592 time 0.261955022812
+67
+3d voxel-based pathfinding
+[48, 75, 52]
+[57, 82, 49]
+count 1 path [0, 538, 398, 446, 450, 455, 466, 630, 652, 1] expanded 26 updated 57 openlist 212 time 0.0460720062256
+68
+3d voxel-based pathfinding
+[45, 70, 49]
+[57, 83, 55]
+count 1 path [0, 537, 557, 574, 592, 391, 639, 667, 671, 507, 719, 737, 769, 1] expanded 57 updated 148 openlist 371 time 0.100578784943
+69
+3d voxel-based pathfinding
+[45, 60, 45]
+[55, 50, 57]
+count 1 path [0, 521, 540, 556, 573, 592, 611, 52, 635, 101, 658, 672, 1] expanded 13 updated 0 openlist 215 time 0.0241239070892
+70
+3d voxel-based pathfinding
+[49, 52, 57]
+[55, 60, 49]
+count 1 path [0, 538, 562, 115, 581, 596, 602, 162, 1] expanded 13 updated 8 openlist 175 time 0.0233430862427
+71
+3d voxel-based pathfinding
+[53, 67, 53]
+[52, 64, 56]
+count 1 path [0, 354, 529, 1] expanded 6 updated 10 openlist 70 time 0.0091700553894
+72
+3d voxel-based pathfinding
+[57, 53, 53]
+[45, 79, 50]
+count 1 path [0, 528, 548, 576, 681, 728, 739, 168, 172, 204, 208, 212, 216, 646, 652, 657, 685, 303, 710, 860, 847, 846, 850, 856, 1044, 1211, 1] expanded 313 updated 812 openlist 1018 time 0.539160966873
+73
+3d voxel-based pathfinding
+[56, 45, 45]
+[45, 64, 57]
+count 1 path [0, 530, 553, 567, 582, 646, 23, 697, 16, 834, 833, 819, 818, 862, 844, 843, 851, 954, 978, 1] expanded 88 updated 214 openlist 610 time 0.152993917465
+74
+3d voxel-based pathfinding
+[47, 77, 45]
+[58, 54, 58]
+count 1 path [0, 515, 540, 549, 566, 587, 614, 650, 281, 759, 292, 289, 217, 213, 209, 205, 173, 169, 165, 949, 990, 1026, 1062, 1] expanded 259 updated 600 openlist 985 time 0.436010837555
+75
+3d voxel-based pathfinding
+[53, 66, 49]
+[54, 50, 57]
+count 1 path [0, 515, 531, 537, 198, 556, 578, 596, 230, 683, 734, 755, 760, 775, 781, 793, 1] expanded 84 updated 160 openlist 392 time 0.139695882797
+76
+3d voxel-based pathfinding
+[56, 54, 46]
+[47, 83, 59]
+count 1 path [0, 529, 556, 570, 582, 594, 608, 646, 202, 207, 732, 747, 350, 351, 352, 353, 370, 371, 372, 373, 478, 479, 480, 481, 1127, 1141, 1161, 1184, 1210, 1] expanded 170 updated 375 openlist 892 time 0.308351993561
+77
+3d voxel-based pathfinding
+[58, 45, 47]
+[47, 71, 58]
+count 1 path [0, 530, 548, 564, 578, 597, 619, 39, 669, 699, 115, 755, 784, 1025, 1123, 1142, 1159, 1172, 1187, 1205, 1223, 1241, 1260, 1281, 1297, 1308, 1] expanded 147 updated 391 openlist 976 time 0.262865781784
+78
+3d voxel-based pathfinding
+[51, 61, 53]
+[57, 53, 57]
+count 1 path [0, 515, 525, 226, 561, 581, 611, 649, 1] expanded 39 updated 82 openlist 233 time 0.0654759407043
+79
+3d voxel-based pathfinding
+[54, 82, 46]
+[45, 57, 55]
+count 1 path [0, 524, 549, 559, 578, 587, 596, 605, 614, 623, 637, 306, 709, 705, 706, 716, 721, 776, 829, 846, 856, 866, 881, 1010, 1085, 1] expanded 98 updated 345 openlist 725 time 0.175178050995
+80
+3d voxel-based pathfinding
+[51, 62, 56]
+[52, 62, 48]
+count 1 path [0, 514, 246, 546, 555, 564, 194, 573, 1] expanded 16 updated 30 openlist 116 time 0.0263738632202
+81
+3d voxel-based pathfinding
+[52, 61, 51]
+[55, 79, 51]
+count 1 path [0, 521, 531, 537, 547, 549, 291, 295, 299, 331, 335, 339, 343, 415, 419, 423, 662, 670, 1] expanded 42 updated 53 openlist 266 time 0.074422121048
+82
+3d voxel-based pathfinding
+[58, 76, 45]
+[47, 53, 55]
+count 1 path [0, 524, 558, 579, 610, 616, 635, 649, 280, 719, 260, 742, 756, 789, 806, 821, 836, 851, 866, 881, 898, 911, 926, 1] expanded 202 updated 661 openlist 917 time 0.352919816971
+83
+3d voxel-based pathfinding
+[56, 64, 51]
+[53, 74, 51]
+count 1 path [0, 527, 540, 291, 556, 568, 575, 582, 589, 599, 1] expanded 19 updated 40 openlist 149 time 0.0323929786682
+84
+3d voxel-based pathfinding
+[46, 73, 58]
+[57, 80, 45]
+count 1 path [0, 538, 562, 564, 589, 397, 641, 657, 450, 690, 706, 731, 750, 1] expanded 35 updated 55 openlist 311 time 0.0632071495056
+85
+3d voxel-based pathfinding
+[45, 67, 53]
+[59, 56, 53]
+count 1 path [0, 533, 546, 564, 576, 189, 587, 610, 629, 173, 650, 668, 687, 707, 1] expanded 44 updated 51 openlist 302 time 0.0770180225372
+86
+3d voxel-based pathfinding
+[52, 62, 53]
+[52, 77, 46]
+count 1 path [0, 522, 535, 546, 278, 279, 280, 281, 322, 323, 324, 325, 612, 651, 693, 1] expanded 53 updated 141 openlist 305 time 0.0940279960632
+87
+3d voxel-based pathfinding
+[53, 53, 53]
+[50, 86, 45]
+count 1 path [0, 522, 542, 548, 598, 154, 630, 663, 675, 715, 730, 738, 805, 849, 950, 978, 997, 1015, 1037, 1055, 1077, 1099, 1117, 1130, 1152, 1239, 1251, 1264, 1278, 1340, 1352, 1366, 1382, 1] expanded 297 updated 807 openlist 1069 time 0.508547067642
+88
+3d voxel-based pathfinding
+[45, 58, 47]
+[51, 55, 51]
+count 1 path [0, 536, 555, 589, 602, 51, 1] expanded 11 updated 6 openlist 129 time 0.0194940567017
+89
+3d voxel-based pathfinding
+[55, 48, 55]
+[49, 71, 47]
+count 1 path [0, 526, 544, 553, 560, 45, 76, 80, 650, 69, 677, 691, 704, 717, 728, 737, 746, 755, 764, 773, 782, 842, 885, 1] expanded 62 updated 101 openlist 493 time 0.111164093018
+90
+3d voxel-based pathfinding
+[56, 55, 51]
+[49, 71, 55]
+count 1 path [0, 527, 87, 559, 578, 632, 221, 654, 670, 686, 700, 711, 722, 733, 744, 755, 1] expanded 41 updated 49 openlist 373 time 0.0739691257477
+91
+3d voxel-based pathfinding
+[50, 63, 57]
+[57, 53, 51]
+count 1 path [0, 534, 558, 564, 574, 584, 129, 617, 624, 641, 1] expanded 18 updated 11 openlist 204 time 0.0330309867859
+92
+3d voxel-based pathfinding
+[53, 48, 47]
+[48, 62, 56]
+count 1 path [0, 525, 540, 553, 572, 21, 47, 629, 656, 697, 715, 740, 764, 798, 1] expanded 62 updated 117 openlist 367 time 0.110341072083
+93
+3d voxel-based pathfinding
+[57, 83, 48]
+[51, 50, 55]
+count 1 path [0, 524, 540, 567, 585, 606, 640, 658, 419, 698, 721, 768, 830, 855, 871, 887, 953, 965, 979, 992, 1005, 1018, 1081, 1094, 1107, 1120, 1133, 1203, 115, 114, 97, 96, 95, 1] expanded 272 updated 619 openlist 1142 time 0.474814891815
+94
+3d voxel-based pathfinding
+[58, 75, 48]
+[46, 45, 57]
+count 1 path [0, 519, 548, 581, 334, 326, 681, 713, 265, 261, 744, 788, 789, 817, 825, 833, 841, 849, 857, 866, 875, 884, 893, 902, 911, 1075, 1094, 1098, 1122, 1136, 1] expanded 99 updated 192 openlist 757 time 0.179630994797
+95
+3d voxel-based pathfinding
+[59, 68, 47]
+[49, 72, 53]
+count 1 path [0, 517, 548, 564, 591, 616, 327, 661, 663, 312, 1] expanded 26 updated 40 openlist 224 time 0.0463099479675
+96
+3d voxel-based pathfinding
+[53, 60, 56]
+[45, 79, 49]
+count 1 path [0, 528, 242, 239, 579, 600, 621, 637, 656, 677, 698, 712, 726, 740, 754, 768, 787, 801, 815, 1] expanded 39 updated 63 openlist 355 time 0.0719530582428
+97
+3d voxel-based pathfinding
+[47, 76, 54]
+[58, 84, 47]
+count 1 path [0, 538, 562, 436, 589, 599, 457, 640, 667, 696, 708, 1] expanded 28 updated 38 openlist 254 time 0.0504660606384
+98
+3d voxel-based pathfinding
+[48, 58, 55]
+[57, 69, 46]
+count 1 path [0, 538, 141, 573, 591, 199, 626, 650, 656, 671, 702, 1] expanded 25 updated 14 openlist 274 time 0.044163942337
+99
+3d voxel-based pathfinding
+[57, 61, 49]
+[46, 79, 54]
+count 1 path [0, 527, 548, 571, 595, 613, 633, 671, 706, 322, 807, 312, 744, 750, 756, 898, 912, 955, 1] expanded 248 updated 666 openlist 811 time 0.43222117424
+yourui@yourui-lenovo:~/Documents/cmput652/asg1/asg1$ 
