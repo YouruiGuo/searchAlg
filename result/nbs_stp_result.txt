@@ -3,3 +3,23 @@ run on ./data/korf100.txt
 sliding tile puzzle
 [[7, 11, 8, 3], [14, 0, 6, 15], [1, 4, 13, 9], [5, 12, 2, 10]]
 count 1 cost 46 updated 1 closedlist 54803 openlist 108628 time 100.220773935
+
+
+85
+run on ./data/korf100.txt
+sliding tile puzzle
+[[6, 0, 5, 10], [11, 12, 9, 2], [1, 7, 4, 3], [14, 8, 13, 15]]
+count 1 cost 47 updated 323 closedlist 29404 openlist 59419 time 38.3915958405
+
+96
+run on ./data/korf100.txt
+sliding tile puzzle
+[[9, 14, 5, 7], [8, 15, 1, 2], [10, 4, 13, 6], [12, 0, 11, 3]]
+count 1 cost 50 updated 1003 closedlist 68508 openlist 136928 time 163.164075851
+
+
+92
+run on ./data/korf100.txt
+sliding tile puzzle
+[[13, 9, 14, 6], [12, 8, 1, 2], [3, 4, 0, 7], [5, 10, 11, 15]]
+count 1 cost 54 updated 5658 closedlist 352506 openlist 693214 time 6796.73175097

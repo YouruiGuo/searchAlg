@@ -383,7 +383,7 @@ if __name__ == '__main__':
     #print "3d voxel-based pathfinding"
     count = 0
     signal.signal(signal.SIGALRM, timeoutHandler)
-    signal.alarm(18000)
+    signal.alarm(7200)
     #for benchmark in benchmarks:
     count += 1
     search = SearchAlgorithm(benchmark["start"], benchmark["goal"])
